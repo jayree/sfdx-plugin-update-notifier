@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.0.0...v1.0.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* plugin uninstall ([1451727](https://github.com/jayree/sfdx-plugin-update-notifier/commit/1451727ba9a5dffc9d7caeee0fd1ad844f3876c4))
+
 # 1.0.0 (2021-04-23)
 
 
