@@ -20,7 +20,7 @@ $ sfdx plugins:install sfdx-plugin-update-notifier
 $ sfdx plugins:COMMAND
 running command...
 $ sfdx plugins
-sfdx-plugin-update-notifier 0.0.0
+sfdx-plugin-update-notifier 1.0.0
 $ sfdx help plugins:COMMAND
 USAGE
   $ sfdx plugins:COMMAND
@@ -30,10 +30,7 @@ USAGE
 ## Commands
 
 <!-- commands -->
-- [sfdx-plugin-update-notifier](#sfdx-plugin-update-notifier)
-  - [Usage](#usage)
-  - [Commands](#commands)
-    - [`sfdx plugins:update:check`](#sfdx-pluginsupdatecheck)
+* [`sfdx plugins:update:check`](#sfdx-pluginsupdatecheck)
 
 ### `sfdx plugins:update:check`
 
@@ -63,5 +60,5 @@ EXAMPLE
      ╰────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-_See code: [commands/plugins/update/check.ts](https://github.com/jayree/sfdx-plugin-update-notifier/blob/v0.0.0/commands/plugins/update/check.ts)_
+_See code: [commands/plugins/update/check.ts](https://github.com/jayree/sfdx-plugin-update-notifier/blob/v1.0.0/commands/plugins/update/check.ts)_
 <!-- commandsstop -->
