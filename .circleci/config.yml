@@ -1,4 +1,3 @@
----
 version: 2.1
 
 _refs:
@@ -63,17 +62,12 @@ jobs:
       - run: yarn global add semantic-release@17
       - run: yarn global add @oclif/semantic-release@3
       - run: *install
-      - run: *build
       - run: semantic-release -e @oclif/semantic-release
-      - run: git status
       - save_cache: *save-cache
   merge:
     <<: *defaults
     steps:
       - checkout
-      - restore_cache: *restore-cache
-      - run: *install
-      - run: *build
       - run: *gh-config
       - run:
           name: Merging
