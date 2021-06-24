@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.0.1...v1.0.2) (2021-06-24)
+
+
+### Bug Fixes
+
+* update dependencies ([9d97421](https://github.com/jayree/sfdx-plugin-update-notifier/commit/9d97421fb612e24441a719ff5fc355739f812811))
+
 ## [1.0.1](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.0.0...v1.0.1) (2021-04-23)
 
 
