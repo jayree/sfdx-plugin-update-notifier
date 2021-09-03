@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.0.2...v1.1.0) (2021-09-03)
+
+
+### Features
+
+* override platform wsl with linux during update command ([c8f24e7](https://github.com/jayree/sfdx-plugin-update-notifier/commit/c8f24e74fe8e3630eef8a62c0428f21b3226b894))
+
 ## [1.0.2](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.0.1...v1.0.2) (2021-06-24)
 
 

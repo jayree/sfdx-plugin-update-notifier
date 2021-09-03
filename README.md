@@ -20,7 +20,7 @@ $ sfdx plugins:install sfdx-plugin-update-notifier
 $ sfdx plugins:COMMAND
 running command...
 $ sfdx plugins
-sfdx-plugin-update-notifier 1.0.2
+sfdx-plugin-update-notifier 1.1.0
 $ sfdx help plugins:COMMAND
 USAGE
   $ sfdx plugins:COMMAND
@@ -60,5 +60,5 @@ EXAMPLE
      ╰────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-_See code: [commands/plugins/update/check.ts](https://github.com/jayree/sfdx-plugin-update-notifier/blob/v1.0.2/commands/plugins/update/check.ts)_
+_See code: [commands/plugins/update/check.ts](https://github.com/jayree/sfdx-plugin-update-notifier/blob/v1.1.0/commands/plugins/update/check.ts)_
 <!-- commandsstop -->
