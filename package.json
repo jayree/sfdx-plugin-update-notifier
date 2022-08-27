@@ -3,69 +3,68 @@
   "description": "update-notifier for sfdx plugins",
   "version": "1.1.0",
   "author": "jayree",
+  "type": "module",
   "bugs": "https://github.com/jayree/sfdx-plugin-update-notifier/issues",
   "dependencies": {
-    "@oclif/config": "^1.17.0",
-    "@oclif/errors": "^1.3.5",
-    "@salesforce/command": "^4.0.5",
-    "@salesforce/kit": "^1.5.17",
-    "boxen": "^5.0.1",
-    "chalk": "^4.1.2",
-    "cli-ux": "^5.6.3",
-    "debug": "^4.3.2",
-    "is-npm": "^5.0.0",
-    "oclif-plugin-update-notifier": "^1.4.0",
-    "semver": "^7.3.5",
-    "tslib": "^2.3.1",
-    "update-notifier": "5.1.0"
+    "@oclif/core": "^1.16.3",
+    "@salesforce/kit": "^1.6.1",
+    "debug": "^4.3.4",
+    "oclif-plugin-update-notifier": "^1.5.0",
+    "tslib": "^2.4.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "@oclif/dev-cli": "^1.26.0",
-    "@oclif/plugin-help": "^3.2.3",
-    "@oclif/test": "^1.2.8",
-    "@salesforce/dev-config": "^2.1.2",
-    "@salesforce/dev-scripts": "^0.9.18",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@oclif/plugin-command-snapshot": "^3.1.3",
+    "@oclif/plugin-help": "^5.1.12",
+    "@oclif/test": "^2.1.1",
+    "@salesforce/dev-config": "^3.1.0",
+    "@salesforce/dev-scripts": "^3.1.0",
     "@salesforce/prettier-config": "^0.0.2",
-    "@types/chai": "^4.2.21",
-    "@types/jsforce": "^1.9.35",
-    "@types/mocha": "^9.0.0",
-    "@types/node": "^16.7.10",
-    "@types/sinon": "^10.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
-    "@typescript-eslint/parser": "^4.30.0",
-    "chai": "^4.3.4",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-salesforce": "^0.1.6",
-    "eslint-config-salesforce-typescript": "^0.2.7",
+    "@types/chai": "^4.3.3",
+    "@types/debug": "^4.1.7",
+    "@types/fs-extra": "^9.0.13",
+    "@types/jsforce": "^1.9.43",
+    "@types/marked": "^4.0.7",
+    "@types/marked-terminal": "^3.1.3",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.18",
+    "@types/sinon": "^10.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-salesforce": "^1.1.0",
+    "eslint-config-salesforce-typescript": "^1.1.1",
     "eslint-plugin-header": "^3.1.1",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^36.0.8",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.2",
-    "is-ci": "^3.0.0",
-    "mocha": "^9.1.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.6",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sf-plugin": "^1.1.0",
+    "husky": "^8.0.1",
+    "is-ci": "^3.0.1",
+    "mocha": "^10.0.0",
     "nyc": "^15.1.0",
+    "oclif": "^3.2.2",
     "patch-package": "^6.4.7",
-    "pinst": "^2.1.6",
-    "prettier": "^2.3.2",
-    "pretty-quick": "^3.1.1",
-    "sinon": "^11.1.2",
-    "source-map-support": "^0.5.19",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.4.2",
-    "xunit-file": "^1.0.0"
+    "pinst": "^3.0.0",
+    "prettier": "^2.7.1",
+    "pretty-quick": "^3.1.3",
+    "sinon": "^14.0.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "xunit-file": "^2.0.0"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=14.0.0"
   },
   "files": [
     "/lib",
     "/messages",
-    "/npm-shrinkwrap.json",
-    "/oclif.manifest.json"
+    "/oclif.manifest.json",
+    "/CHANGELOG.md"
   ],
   "homepage": "https://github.com/jayree/sfdx-plugin-update-notifier",
   "keywords": [
@@ -73,42 +72,48 @@
   ],
   "license": "BSD-3-Clause",
   "oclif": {
-    "commands": "./lib/commands",
     "bin": "sfdx",
     "hooks": {
+      "init": "./lib/hooks/init",
       "prerun": "./lib/hooks/prerun"
-    },
-    "topics": {
-      "plugins": {
-        "update": {}
-      }
     },
     "plugins": [
       "oclif-plugin-update-notifier"
     ],
     "devPlugins": [
-      "@oclif/plugin-help"
-    ]
+      "@oclif/plugin-help",
+      "@oclif/plugin-command-snapshot"
+    ],
+    "info": {
+      "releasenotes": {
+        "distTagUrl": "https://registry.npmjs.org/-/package/sfdx-plugin-update-notifier/dist-tags",
+        "releaseNotesPath": "https://github.com/jayree/sfdx-plugin-update-notifier/tree/main",
+        "releaseNotesFilename": "CHANGELOG.md"
+      }
+    }
   },
   "repository": "jayree/sfdx-plugin-update-notifier",
   "scripts": {
     "build": "sf-build",
     "clean": "sf-clean",
     "clean-all": "sf-clean all",
+    "clean:lib": "shx rm -rf lib && shx rm -rf coverage && shx rm -rf .nyc_output && shx rm -f oclif.manifest.json",
     "compile": "sf-compile",
     "format": "sf-format",
     "lint": "sf-lint",
     "lint-fix": "sf-lint --fix",
-    "postcompile": "oclif-dev manifest && oclif-dev readme",
+    "postcompile": "oclif readme",
     "postinstall": "patch-package",
-    "postpack": "rimraf oclif.manifest.json",
+    "postpack": "shx rm -f oclif.manifest.json",
     "postpublish": "pinst --enable",
+    "posttest": "yarn lint && yarn test:deprecation-policy",
     "prepack": "sf-prepack",
     "prepare": "is-ci || husky install",
     "prepublishOnly": "pinst --disable",
     "pretest": "sf-compile-test",
     "test": "sf-test",
-    "version": "oclif-dev manifest && oclif-dev readme"
+    "test:deprecation-policy": "./bin/dev.js snapshot:compare",
+    "version": "oclif readme"
   },
   "release": {
     "branches": [

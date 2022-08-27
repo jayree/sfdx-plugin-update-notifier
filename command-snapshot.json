@@ -1,0 +1,8 @@
+[
+    {
+        "command": "plugins:update:check",
+        "plugin": "oclif-plugin-update-notifier",
+        "flags": [],
+        "alias": []
+    }
+]
