@@ -9,7 +9,11 @@
     "@oclif/core": "^1.16.3",
     "@salesforce/kit": "^1.6.1",
     "debug": "^4.3.4",
+    "fs-extra": "^10.1.0",
+    "marked": "^4.1.0",
+    "marked-terminal": "^5.1.1",
     "oclif-plugin-update-notifier": "^1.5.0",
+    "semver": "^7.3.7",
     "tslib": "^2.4.0"
   },
   "devDependencies": {
@@ -29,6 +33,7 @@
     "@types/marked-terminal": "^3.1.3",
     "@types/mocha": "^9.1.1",
     "@types/node": "^18.7.18",
+    "@types/semver": "^7.3.12",
     "@types/sinon": "^10.0.13",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
@@ -75,7 +80,8 @@
     "bin": "sfdx",
     "hooks": {
       "init": "./lib/hooks/init",
-      "prerun": "./lib/hooks/prerun"
+      "prerun": "./lib/hooks/prerun",
+      "update": "./lib/hooks/changelog"
     },
     "plugins": [
       "oclif-plugin-update-notifier"
