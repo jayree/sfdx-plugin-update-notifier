@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.1.0...v1.2.0) (2022-09-20)
+
+
+### Features
+
+* move to ESM ([5a225bd](https://github.com/jayree/sfdx-plugin-update-notifier/commit/5a225bd0fafe13799830b85ddbfefb335192edee))
+
 # [1.1.0](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.0.2...v1.1.0) (2021-09-03)
 
 
