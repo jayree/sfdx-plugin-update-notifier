@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.0...v1.2.1) (2022-09-20)
+
+
+### Bug Fixes
+
+* add missing changelog hook ([11e9fe6](https://github.com/jayree/sfdx-plugin-update-notifier/commit/11e9fe6955ff44f3607df475e6bd367d6eef90c7))
+
 # [1.2.0](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.1.0...v1.2.0) (2022-09-20)
 
 

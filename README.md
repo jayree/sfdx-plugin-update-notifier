@@ -21,7 +21,7 @@ $ sfdx plugins:install sfdx-plugin-update-notifier
 $ sfdx plugins:[COMMAND]
 running command...
 $ sfdx plugins
-sfdx-plugin-update-notifier 1.2.0
+sfdx-plugin-update-notifier 1.2.1
 $ sfdx help plugins:[COMMAND]
 USAGE
   $ sfdx plugins:COMMAND
