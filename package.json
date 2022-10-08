@@ -6,14 +6,14 @@
   "type": "module",
   "bugs": "https://github.com/jayree/sfdx-plugin-update-notifier/issues",
   "dependencies": {
-    "@oclif/core": "^1.16.3",
-    "@salesforce/kit": "^1.6.1",
+    "@oclif/core": "^1.16.5",
+    "@salesforce/kit": "^1.7.0",
     "debug": "^4.3.4",
     "fs-extra": "^10.1.0",
-    "marked": "^4.1.0",
+    "marked": "^4.1.1",
     "marked-terminal": "^5.1.1",
-    "oclif-plugin-update-notifier": "^1.5.0",
-    "semver": "^7.3.7",
+    "oclif-plugin-update-notifier": "^1.5.1",
+    "semver": "^7.3.8",
     "tslib": "^2.4.0"
   },
   "devDependencies": {
