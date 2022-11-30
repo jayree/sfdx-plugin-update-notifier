@@ -9,7 +9,7 @@
     "@oclif/core": "^1.16.5",
     "@salesforce/kit": "^1.7.0",
     "debug": "^4.3.4",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.0",
     "marked": "^4.1.1",
     "marked-terminal": "^5.1.1",
     "oclif-plugin-update-notifier": "^1.5.1",
