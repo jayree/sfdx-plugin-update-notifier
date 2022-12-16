@@ -10,21 +10,21 @@
 Update notifications for sfdx plugins based on [jayree/oclif-plugin-update-notifier](https://github.com/jayree/oclif-plugin-update-notifier) and [yeoman/update-notifier](https://github.com/yeoman/update-notifier)
 
 <!-- toc -->
-* [Usage](#usage)
+* [sfdx-plugin-update-notifier](#sfdx-plugin-update-notifier)
 <!-- tocstop -->
 
 ## Usage
 
 <!-- usage -->
 ```sh-session
-$ sfdx plugins:install sfdx-plugin-update-notifier
-$ sfdx plugins:[COMMAND]
+$ npm install -g sfdx-plugin-update-notifier
+$ sfdx COMMAND
 running command...
-$ sfdx plugins
-sfdx-plugin-update-notifier 1.2.3
-$ sfdx help plugins:[COMMAND]
+$ sfdx (--version)
+sfdx-plugin-update-notifier/1.2.3 darwin-arm64 node-v18.12.1
+$ sfdx --help [COMMAND]
 USAGE
-  $ sfdx plugins:COMMAND
+  $ sfdx COMMAND
 ...
 ```
 <!-- usagestop -->
