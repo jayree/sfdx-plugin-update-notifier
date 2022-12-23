@@ -1848,10 +1848,10 @@ bl@^4.0.3, bl@^4.1.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
-boxen@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/boxen/-/boxen-7.0.0.tgz#9e5f8c26e716793fc96edcf7cf754cdf5e3fbf32"
-  integrity sha512-j//dBVuyacJbvW+tvZ9HuH03fZ46QcaKvvhZickZqtB271DxJ7SNRSNxrV/dZX0085m7hISRZWbzWlJvx/rHSg==
+boxen@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/boxen/-/boxen-7.0.1.tgz#cd84db4364a8bae65f1f016ce94a21ec2c832c16"
+  integrity sha512-8k2eH6SRAK00NDl1iX5q17RJ8rfl53TajdYxE3ssMLehbg487dEVgsad4pIsZb/QqBgYWIl6JOauMTLGX2Kpkw==
   dependencies:
     ansi-align "^3.0.1"
     camelcase "^7.0.0"
@@ -5486,14 +5486,14 @@ object.values@^1.1.5:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.3.tgz#482f1f38e6a76845e390f15b22230023055b0e5a"
-  integrity sha512-60QEb0nHRycQcJ4UcimHPjlYz+tWsj1MRH/CYQvzIycC/bQma7z0oJyuJF7veGomhOu/+8Z4smvSHrOXNlsWhA==
+oclif-plugin-update-notifier@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.4.tgz#5a8f33572c00ffb2a031c2c688e011d49c3c55f3"
+  integrity sha512-ZYjxN1Lh9Ua1q5LFOccceCDPkWnNSo/XQPSc9LNnSK+9L2qhkkR4dpZQ0TFk8UK14QwhG8ZTsLDyE16bhdjxgA==
   dependencies:
     "@oclif/core" "^1.21.0"
     "@salesforce/kit" "^1.8.0"
-    boxen "^7.0.0"
+    boxen "^7.0.1"
     chalk "^5.2.0"
     debug "^4.3.4"
     fs-extra "^11.1.0"
