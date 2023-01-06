@@ -1,3 +1,11 @@
+## [1.2.7](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.6...v1.2.7) (2023-01-06)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/kit from 1.8.0 to 1.8.2 ([#60](https://github.com/jayree/sfdx-plugin-update-notifier/issues/60)) ([ea2cca2](https://github.com/jayree/sfdx-plugin-update-notifier/commit/ea2cca20479968ebd9d3d05ee4c8301e6af135cc))
+* **deps:** bump oclif-plugin-update-notifier from 1.5.5 to 1.5.6 ([#56](https://github.com/jayree/sfdx-plugin-update-notifier/issues/56)) ([4bbff15](https://github.com/jayree/sfdx-plugin-update-notifier/commit/4bbff157ebf40c5049592d3c76a8cd2d225f49ad))
+
 ## [1.2.6](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.5...v1.2.6) (2022-12-30)
 
 
