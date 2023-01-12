@@ -12,7 +12,7 @@
     "fs-extra": "^11.1.0",
     "marked": "^4.2.5",
     "marked-terminal": "^5.1.1",
-    "oclif-plugin-update-notifier": "^1.5.6",
+    "oclif-plugin-update-notifier": "^1.5.7",
     "semver": "^7.3.8",
     "tslib": "^2.4.1"
   },
