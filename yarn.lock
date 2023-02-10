@@ -767,10 +767,10 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^2.0.3", "@oclif/core@^2.0.7", "@oclif/core@^2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.0.8.tgz#81c79f051ffb326b7c9999463ae9547a7e799316"
-  integrity sha512-jt06vEZfpazkR0C8vYuVMKmsxjky52y1B1oFGPnCa6/17qH+PByd5knQP6/QbRoE5OT9RAf4zzpxx2wcihVslw==
+"@oclif/core@^2.0.11", "@oclif/core@^2.0.3", "@oclif/core@^2.0.7", "@oclif/core@^2.0.8":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.0.11.tgz#3d5385196b9a6bfff8df26caf6baa58e53b15d33"
+  integrity sha512-BMKkcgKhrn0RfZVaXObpadO80C3hCM9jHaRHwQEb0G/ASo34YAjKXt8hX027Mc4XBmsYeIutJrEMx9GZr0v1Hw==
   dependencies:
     "@types/cli-progress" "^3.11.0"
     ansi-escapes "^4.3.2"
@@ -796,7 +796,7 @@
     strip-ansi "^6.0.1"
     supports-color "^8.1.1"
     supports-hyperlinks "^2.2.0"
-    tslib "^2.4.1"
+    tslib "^2.5.0"
     widest-line "^3.1.0"
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
@@ -1110,7 +1110,7 @@
     typedoc-plugin-missing-exports "0.23.0"
     typescript "^4.1.3"
 
-"@salesforce/kit@^1.8.4", "@salesforce/kit@^1.8.5":
+"@salesforce/kit@^1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-1.8.5.tgz#3dcda46e7216363f8703c1c1d3b4dc5d80c1b4d3"
   integrity sha512-py5M1PI5tWy/au/1tJ6qQBv7pHX3B4APqsNxg7yx/s2jbERUD6QNwcmWAayuRpZVVnFXBShBYROFZCojuNJwMA==
@@ -5548,13 +5548,13 @@ object.values@^1.1.5, object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.11:
-  version "1.5.11"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.11.tgz#d76493732f86940d2f546733f86f5ee496404ebc"
-  integrity sha512-VI59uO1V7xzcCiOj5LGoI+AEVg0ob2cYQRRc/n9YmFY2gNc497j3lbeSI0XuO8S7ZMGIcf0H3wbq3qluwc1Byw==
+oclif-plugin-update-notifier@^1.5.12:
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.12.tgz#c393ed0fecf966fae7dafd6eba2983672c32c644"
+  integrity sha512-kK+bWERTQcibtmiwG/o3m4gZIeKK/YeoaRGtd2hwJ8gjZ63rhJq8xrVlQmrgryLSneXHdSsCE8XucSGD2VVlOw==
   dependencies:
-    "@oclif/core" "^2.0.8"
-    "@salesforce/kit" "^1.8.4"
+    "@oclif/core" "^2.0.11"
+    "@salesforce/kit" "^1.8.5"
     boxen "^7.0.1"
     chalk "^5.2.0"
     debug "^4.3.4"
