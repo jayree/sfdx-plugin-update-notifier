@@ -13,7 +13,6 @@ const isOutputEnabled = !(process.argv.find((arg) => ['--json', '--help', '-h'].
 
 export const prerun: Hook<'prerun'> = async function (options) {
   const debug = Debug(`${this.config.bin}:sfdx-plugin-update-notifier:hooks:prerun`);
-  debug({ CommandID: options.Command.id });
 
   if (env.getBoolean('SFDX_DISABLE_UPDATENOTIFIER')) {
     debug('found: SFDX_DISABLE_UPDATENOTIFIER=true');
@@ -31,18 +30,14 @@ export const prerun: Hook<'prerun'> = async function (options) {
       updateCheckInterval: 0,
       spawnOptions: { detached: false, stdio: 'ignore' },
       defer: false,
-      changeLogUrl: {
-        'salesforce-alm': 'https://github.com/forcedotcom/cli/blob/main/releasenotes/README.md',
-      },
+      changeLogUrl: {},
       ignoreDistTags: ['sf'],
     });
   } else {
     await this.config.runHook('updatenotifier', {
       spawnOptions: { detached: true, stdio: 'ignore' },
       defer: true,
-      changeLogUrl: {
-        'salesforce-alm': 'https://github.com/forcedotcom/cli/blob/main/releasenotes/README.md',
-      },
+      changeLogUrl: {},
       ignoreDistTags: ['sf'],
     });
   }
