@@ -21,7 +21,7 @@ $ oclif-example plugins:install sfdx-plugin-update-notifier
 $ oclif-example plugins:[COMMAND]
 running command...
 $ sfdx plugins
-sfdx-plugin-update-notifier 1.2.15
+sfdx-plugin-update-notifier 1.2.16
 $ sfdx help plugins:[COMMAND]
 USAGE
   $ sfdx plugins:COMMAND

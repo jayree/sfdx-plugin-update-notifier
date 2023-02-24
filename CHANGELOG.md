@@ -1,3 +1,10 @@
+## [1.2.16](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.15...v1.2.16) (2023-02-24)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/kit from 1.8.5 to 1.9.0 ([#148](https://github.com/jayree/sfdx-plugin-update-notifier/issues/148)) ([e562770](https://github.com/jayree/sfdx-plugin-update-notifier/commit/e562770a4144a7eb1f8b2edb1ac5365634f27913))
+
 ## [1.2.15](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.14...v1.2.15) (2023-02-17)
 
 
