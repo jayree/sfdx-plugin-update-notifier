@@ -1110,7 +1110,7 @@
     typedoc-plugin-missing-exports "0.23.0"
     typescript "^4.1.3"
 
-"@salesforce/kit@^1.8.5", "@salesforce/kit@^1.9.0":
+"@salesforce/kit@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-1.9.0.tgz#ddc179ff588b68f3e8f5c237ab74ed4b9c8d5274"
   integrity sha512-a1DnVf2ZN/fZ4Zq0T6pxrDpwOyWSKt6Es1erpUJLvM13H+Y3C4uxSUy4aS4WSHIJA8zvWvvEiWYOV17TD0Dmug==
@@ -5589,13 +5589,13 @@ object.values@^1.1.5, object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.13:
-  version "1.5.13"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.13.tgz#c52c76eb48159dd2e11167069ad3aa10907282ca"
-  integrity sha512-1s3WSOBwPjkd+zaia5g0okTo3qYbYxMTxUsfXJEvEduJZv/W5y6Ly+NBux5Zp0ovDD2CLQ636Ybnv7t4eqyNRQ==
+oclif-plugin-update-notifier@^1.5.14:
+  version "1.5.14"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.14.tgz#53f08f8e798abd858b551037685b8fff613ef8ab"
+  integrity sha512-XISg7OGC06pHOdinK1hW3BmXburCcS1uYVMotnR2/P2k0IggkQIty0xl2wIBsUQNl2fpIPrAw44m2xXFVC2oHA==
   dependencies:
     "@oclif/core" "^2.1.5"
-    "@salesforce/kit" "^1.8.5"
+    "@salesforce/kit" "^1.9.0"
     boxen "^7.0.1"
     chalk "^5.2.0"
     debug "^4.3.4"
