@@ -13,7 +13,7 @@
     "marked": "^4.3.0",
     "marked-terminal": "^5.1.1",
     "oclif-plugin-update-notifier": "^1.5.21",
-    "semver": "^7.3.8",
+    "semver": "^7.5.0",
     "tslib": "^2.4.1"
   },
   "devDependencies": {
