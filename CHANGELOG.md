@@ -1,3 +1,11 @@
+## [1.2.26](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.25...v1.2.26) (2023-05-10)
+
+
+### Bug Fixes
+
+* ignore qa tag ([526418b](https://github.com/jayree/sfdx-plugin-update-notifier/commit/526418b198cfe1dda1a8998b4688cee10f9cec8f))
+* use new changelog ([f8310aa](https://github.com/jayree/sfdx-plugin-update-notifier/commit/f8310aa448f90ec34e5fe0e92663682391c4f24d))
+
 ## [1.2.25](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.24...v1.2.25) (2023-05-05)
 
 
