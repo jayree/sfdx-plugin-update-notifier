@@ -31,14 +31,14 @@ export const prerun: Hook<'prerun'> = async function (options) {
       spawnOptions: { detached: false, stdio: 'ignore' },
       defer: false,
       changeLogUrl: {},
-      ignoreDistTags: ['sf'],
+      ignoreDistTags: ['sf', 'qa'],
     });
   } else {
     await this.config.runHook('updatenotifier', {
       spawnOptions: { detached: true, stdio: 'ignore' },
       defer: true,
       changeLogUrl: {},
-      ignoreDistTags: ['sf'],
+      ignoreDistTags: ['sf', 'qa'],
     });
   }
 };
