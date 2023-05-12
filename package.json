@@ -1,7 +1,7 @@
 {
   "name": "sfdx-plugin-update-notifier",
   "description": "update-notifier for sfdx plugins",
-  "version": "1.2.26",
+  "version": "1.2.27",
   "author": "jayree",
   "type": "module",
   "bugs": "https://github.com/jayree/sfdx-plugin-update-notifier/issues",
