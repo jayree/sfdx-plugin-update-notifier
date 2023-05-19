@@ -1012,6 +1012,11 @@
   resolved "https://registry.yarnpkg.com/@salesforce/prettier-config/-/prettier-config-0.0.2.tgz#ded39bf7cb75238edc9db6dd093649111350f8bc"
   integrity sha512-KExM355BLbxCW6siGBV7oUOotXvvVp0tAWERgzUkM2FcMb9fWrjwXDrIHc8V0UdDlA3UXtFltDWgN+Yqi+BA/g==
 
+"@salesforce/prettier-config@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@salesforce/prettier-config/-/prettier-config-0.0.3.tgz#ba648d4886bb38adabe073dbea0b3a91b3753bb0"
+  integrity sha512-hYOhoPTCSYMDYn+U1rlEk16PoBeAJPkrdg4/UtAzupM1mRRJOwEPMG1d7U8DxJFKuXW3DMEYWr2MwAIBDaHmFg==
+
 "@salesforce/ts-types@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-2.0.1.tgz#3b050f28555ae4e83f5b73142543809dd88bb879"
