@@ -8,7 +8,7 @@
   "dependencies": {
     "@jayree/changelog": "^1.1.1",
     "@oclif/core": "^2.8.5",
-    "@salesforce/kit": "^3.0.0",
+    "@salesforce/kit": "^3.0.1",
     "debug": "^4.3.4",
     "fs-extra": "^11.1.0",
     "oclif-plugin-update-notifier": "^1.5.25",

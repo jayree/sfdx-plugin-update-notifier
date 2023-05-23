@@ -999,13 +999,13 @@
     typescript "^4.1.3"
     wireit "^0.9.5"
 
-"@salesforce/kit@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.0.tgz#be7a7169fe93af2dc2221f233f89469004443356"
-  integrity sha512-Cupmr0k/dSVrNYJfTOignCoLpReFWxwQA2p5Gg1WUkfOH3EYW1vTejCSifasNgzVJIZQ9F4rSwdF5kuTz+XTcw==
+"@salesforce/kit@^3.0.0", "@salesforce/kit@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.1.tgz#2375e96b0b22445b52069ca59474652febe8fd2e"
+  integrity sha512-pH0o7zNKRSjHOBPJeV2nUXrmYD9NsFfxxoVBaa66V7wXQH7OSBlO0/VvEAs1rKZ+MJELgSlpf6h9TajYqTYRrA==
   dependencies:
     "@salesforce/ts-types" "^2.0.1"
-    tslib "^2.5.0"
+    tslib "^2.5.2"
 
 "@salesforce/prettier-config@^0.0.2":
   version "0.0.2"
