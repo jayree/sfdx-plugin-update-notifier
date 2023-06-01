@@ -999,10 +999,10 @@
     typescript "^4.1.3"
     wireit "^0.9.5"
 
-"@salesforce/kit@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.1.tgz#2375e96b0b22445b52069ca59474652febe8fd2e"
-  integrity sha512-pH0o7zNKRSjHOBPJeV2nUXrmYD9NsFfxxoVBaa66V7wXQH7OSBlO0/VvEAs1rKZ+MJELgSlpf6h9TajYqTYRrA==
+"@salesforce/kit@^3.0.1", "@salesforce/kit@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.2.tgz#6474c3e9905290bbcfb3455388b140eee3ff84db"
+  integrity sha512-/TbqjmxThz3+ZeLrYZFEcvn7kbK7DW0aHzotazyKsoGbqsHiiXIMNS1Cc5rfJRKQV7bKp84vMF/WCyBZJFHZKA==
   dependencies:
     "@salesforce/ts-types" "^2.0.1"
     tslib "^2.5.2"
@@ -3475,10 +3475,27 @@ got@^11:
     p-cancelable "^2.0.0"
     responselike "^2.0.0"
 
-got@^12.1.0, got@^12.6.0:
+got@^12.1.0:
   version "12.6.0"
   resolved "https://registry.yarnpkg.com/got/-/got-12.6.0.tgz#8d382ee5de4432c086e83c133efdd474484f6ac7"
   integrity sha512-WTcaQ963xV97MN3x0/CbAriXFZcXCfgxVp91I+Ze6pawQOa7SgzwSx2zIJJsX+kTajMnVs0xcFD1TxZKFqhdnQ==
+  dependencies:
+    "@sindresorhus/is" "^5.2.0"
+    "@szmarczak/http-timer" "^5.0.1"
+    cacheable-lookup "^7.0.0"
+    cacheable-request "^10.2.8"
+    decompress-response "^6.0.0"
+    form-data-encoder "^2.1.2"
+    get-stream "^6.0.1"
+    http2-wrapper "^2.1.10"
+    lowercase-keys "^3.0.0"
+    p-cancelable "^3.0.0"
+    responselike "^3.0.0"
+
+got@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-13.0.0.tgz#a2402862cef27a5d0d1b07c0fb25d12b58175422"
+  integrity sha512-XfBk1CxOOScDcMr9O1yKkNaQyy865NbYs+F7dr4H0LZMVgCj2Le59k6PqbNHoL5ToeaEQUYh6c6yMfVcc6SJxA==
   dependencies:
     "@sindresorhus/is" "^5.2.0"
     "@szmarczak/http-timer" "^5.0.1"
@@ -5218,19 +5235,19 @@ object.values@^1.1.5, object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.27:
-  version "1.5.27"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.27.tgz#8d291fa360d5292a87858e575ef5bbf76b300975"
-  integrity sha512-UKTcjgT7Ii/ln2FIPP6ZuIIxiXJlJAmjW/cEW2R3g+qx8OC8ysbhRXy8E4vEipADpsJrOW6KleM3aJ/3yVgUQA==
+oclif-plugin-update-notifier@^1.5.28:
+  version "1.5.28"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.28.tgz#930359efb9efca220ba78cf19d0cee72cd763b2e"
+  integrity sha512-N45RBpjOGJJoRcVg9xUX756HiveVraQRyuyhA0L+6uqs0PjwvPqksJPjoLt/NjgRnD5PGBjOIGHCtLY7WPAnYQ==
   dependencies:
     "@jayree/changelog" "^1.1.2"
     "@oclif/core" "^2.8.5"
-    "@salesforce/kit" "^3.0.1"
+    "@salesforce/kit" "^3.0.2"
     boxen "^7.1.0"
     chalk "^5.2.0"
     debug "^4.3.4"
     fs-extra "^11.1.1"
-    got "^12.6.0"
+    got "^13.0.0"
     package-json "^8.1.0"
     semver "^7.5.1"
     semver-diff "^4.0.0"
