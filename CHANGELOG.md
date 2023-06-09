@@ -1,3 +1,11 @@
+## [1.2.32](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.31...v1.2.32) (2023-06-09)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/kit from 3.0.2 to 3.0.3 ([#293](https://github.com/jayree/sfdx-plugin-update-notifier/issues/293)) ([ecc2f10](https://github.com/jayree/sfdx-plugin-update-notifier/commit/ecc2f10f3eac3b2375699bf8caba027853b14afa))
+* **deps:** bump tslib from 2.5.2 to 2.5.3 ([#294](https://github.com/jayree/sfdx-plugin-update-notifier/issues/294)) ([a335ad6](https://github.com/jayree/sfdx-plugin-update-notifier/commit/a335ad6426c5a40ff9749471127976630a4432d9))
+
 ## [1.2.31](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.30...v1.2.31) (2023-06-01)
 
 
