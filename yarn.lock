@@ -702,10 +702,10 @@
     node-gyp "^8.2.0"
     read-package-json-fast "^2.0.1"
 
-"@oclif/color@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@oclif/color/-/color-1.0.2.tgz#fbb857251454d737033e1dcd6d19fe5ba1d61350"
-  integrity sha512-HqTFeMjfLOZajxqffSkyDWFUB3YqsSLRcsvnvITGRzhO0Ip4Qwp0VHVwh+qe0TjJYEltmOgzoxsR1LZPQIHNBQ==
+"@oclif/color@^1.0.8":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@oclif/color/-/color-1.0.9.tgz#9707f0cd39b3c2eae0eb0c76a90838a594306327"
+  integrity sha512-ntc/fZwuf4NRfYbXVoUNFyMB9IxVx/ls/WbSLKbkD9UpsmwY1I3J4DJKKRFRpenmTuxGQW8Lyzm7X3vhzHpDQA==
   dependencies:
     ansi-styles "^4.2.1"
     chalk "^4.1.0"
@@ -713,41 +713,7 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@^1.20.3", "@oclif/core@^1.21.0":
-  version "1.26.1"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.26.1.tgz#26e46c96143d3e2b1dd9bd558ae1653fe9a4f3fa"
-  integrity sha512-g+OWJcM7JOVI53caTEtq0BB1nPotWctRLUyFODPgvDqXhVR7QED+Qz3LwFAMD8dt7/Ar2ZNq15U3bnpnOv453A==
-  dependencies:
-    "@oclif/linewrap" "^1.0.0"
-    "@oclif/screen" "^3.0.4"
-    ansi-escapes "^4.3.2"
-    ansi-styles "^4.3.0"
-    cardinal "^2.1.1"
-    chalk "^4.1.2"
-    clean-stack "^3.0.1"
-    cli-progress "^3.10.0"
-    debug "^4.3.4"
-    ejs "^3.1.6"
-    fs-extra "^9.1.0"
-    get-package-type "^0.1.0"
-    globby "^11.1.0"
-    hyperlinker "^1.0.0"
-    indent-string "^4.0.0"
-    is-wsl "^2.2.0"
-    js-yaml "^3.14.1"
-    natural-orderby "^2.0.3"
-    object-treeify "^1.1.33"
-    password-prompt "^1.1.2"
-    semver "^7.3.7"
-    string-width "^4.2.3"
-    strip-ansi "^6.0.1"
-    supports-color "^8.1.1"
-    supports-hyperlinks "^2.2.0"
-    tslib "^2.4.1"
-    widest-line "^3.1.0"
-    wrap-ansi "^7.0.0"
-
-"@oclif/core@^2.8.4", "@oclif/core@^2.9.3", "@oclif/core@^2.9.4":
+"@oclif/core@^2.9.3", "@oclif/core@^2.9.4":
   version "2.9.4"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.9.4.tgz#5b22415e238fc3e0db08b0350b85b417ead6e6ff"
   integrity sha512-eFRRpV+tJ6nMkhay2M9IppjSF3atRrgj6Qo83qUslaFSAW3NAl4mIhx1mKmTwQx5rgSrar03xICtSAWJ6gZtag==
@@ -783,11 +749,6 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/linewrap@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@oclif/linewrap/-/linewrap-1.0.0.tgz#aedcb64b479d4db7be24196384897b5000901d91"
-  integrity sha512-Ups2dShK52xXa8w6iBWLgcjPJWjais6KPJQq3gQ/88AY6BXoTX+MIGFPrWQO1KLMiQfoTpcLnUwloN4brrVUHw==
-
 "@oclif/plugin-command-snapshot@^4.0.9":
   version "4.0.9"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-command-snapshot/-/plugin-command-snapshot-4.0.9.tgz#04b6cebdb1e601181c63f3c61dfd2e9c77066437"
@@ -801,40 +762,34 @@
     ts-json-schema-generator "^1.2.0"
     tslib "^2.6.0"
 
-"@oclif/plugin-help@^5.1.19", "@oclif/plugin-help@^5.2.14":
+"@oclif/plugin-help@^5.2.14":
   version "5.2.14"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-5.2.14.tgz#c89f623712fc7d74f01fd2c9d909434b335a2e7b"
   integrity sha512-7hMLc6zqxeRfG4nvHHQPpbaBj60efM3ULFkCpHZkdLms/ezIkNo40F661QuraIjMP/NN+U6VSfBCGuPkRyxVkA==
   dependencies:
     "@oclif/core" "^2.9.3"
 
-"@oclif/plugin-not-found@^2.3.7":
-  version "2.3.9"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-not-found/-/plugin-not-found-2.3.9.tgz#045277bf04c8fd6ee25e68d5355658985c21404a"
-  integrity sha512-FJXIa5KmNbCgO8kDVJ23C/SkRRuwMYaRTNs5jejwrwKAm5fPp+TnR1+4pBp64ik7FA806nioqMGlotiyEWfMJA==
+"@oclif/plugin-not-found@^2.3.32":
+  version "2.3.32"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-not-found/-/plugin-not-found-2.3.32.tgz#4b9371b028ed6a74238a5ea7c12cfa7d30d7d0a8"
+  integrity sha512-tVFHfR9XRUWrcxBugHjFr7HUmbLheDX05IaFr7fMF2hcvcqDs3DBjy42WKEoXSaBVTcST6KKhoSy2UVX8pk9Fg==
   dependencies:
-    "@oclif/color" "^1.0.2"
-    "@oclif/core" "^1.20.3"
+    "@oclif/color" "^1.0.8"
+    "@oclif/core" "^2.9.3"
     fast-levenshtein "^3.0.0"
-    lodash "^4.17.21"
 
-"@oclif/plugin-warn-if-update-available@^2.0.14":
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-warn-if-update-available/-/plugin-warn-if-update-available-2.0.16.tgz#7cabea4abaf021683ff85c2fe03bec02328d4947"
-  integrity sha512-jLe+yIwyMqUwdHTKLviAUqJbX0+QEj63LPDWCWqLZnuo6BSoIvJl6vRGzIDoxhWG/4nileBgwPv8ivSo6BEr0w==
+"@oclif/plugin-warn-if-update-available@^2.0.44":
+  version "2.0.44"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-warn-if-update-available/-/plugin-warn-if-update-available-2.0.44.tgz#1693e5be181fba5ef6cd68ba3653a4209283a011"
+  integrity sha512-52Ww0B4F1tMhwjw2fe73lhmfDI/F4ynf3ur7/xnpnVBEvj5JG4sqolbEJV/0lV85+4dJNsYJRxubbPYjxcbCcA==
   dependencies:
-    "@oclif/core" "^1.21.0"
+    "@oclif/core" "^2.9.3"
     chalk "^4.1.0"
     debug "^4.1.0"
     fs-extra "^9.0.1"
     http-call "^5.2.2"
     lodash "^4.17.21"
-    semver "^7.3.8"
-
-"@oclif/screen@^3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-3.0.4.tgz#663db0ecaf23f3184e7f01886ed578060e4a7f1c"
-  integrity sha512-IMsTN1dXEXaOSre27j/ywGbBjrzx0FNd1XmuhCWCB9NTPrhWI1Ifbz+YLSEcstfQfocYsrbrIessxXb2oon4lA==
+    semver "^7.5.4"
 
 "@oclif/test@^2.3.31":
   version "2.3.31"
@@ -2128,7 +2083,7 @@ cli-cursor@^3.1.0:
   dependencies:
     restore-cursor "^3.1.0"
 
-cli-progress@^3.10.0, cli-progress@^3.12.0:
+cli-progress@^3.12.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/cli-progress/-/cli-progress-3.12.0.tgz#807ee14b66bcc086258e444ad0f19e7d42577942"
   integrity sha512-tRkV3HJ1ASwm19THiiLIXLO7Im7wlTuKnvkYaTkyoAPefqjNg7W7DHKUlGRxy9vxDvbyCYQkQozvptuMkGCg8A==
@@ -2612,7 +2567,7 @@ eastasianwidth@^0.2.0:
   resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
-ejs@^3.1.6, ejs@^3.1.8:
+ejs@^3.1.8:
   version "3.1.8"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.8.tgz#758d32910c78047585c7ef1f92f9ee041c1c190b"
   integrity sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==
@@ -5233,15 +5188,15 @@ oclif-plugin-update-notifier@^1.5.35:
     semver-diff "^4.0.0"
     tslib "^2.5.3"
 
-oclif@^3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.9.1.tgz#f7ddf8aacd3fd86029b5e66c6cac743459299f4b"
-  integrity sha512-gJ8gJrohFY8qEeVBOw7wgAFdwPt2CTTkEFXDTkfUeXap6URIy6ngP7g/E1A2zFt2I0wH/qQHwcfuTpfBbj1+Uw==
+oclif@^3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.9.2.tgz#f48c5446d5034af05f5175c615a97912b932d3b5"
+  integrity sha512-iDauedLM+oHiG/se+68DENKk4+D/k733neOQq4ZXrcsHVoJMmWflejC4iBeeKrm/mVb3pUHsoFij6S7G7Mt60w==
   dependencies:
-    "@oclif/core" "^2.8.4"
-    "@oclif/plugin-help" "^5.1.19"
-    "@oclif/plugin-not-found" "^2.3.7"
-    "@oclif/plugin-warn-if-update-available" "^2.0.14"
+    "@oclif/core" "^2.9.4"
+    "@oclif/plugin-help" "^5.2.14"
+    "@oclif/plugin-not-found" "^2.3.32"
+    "@oclif/plugin-warn-if-update-available" "^2.0.44"
     aws-sdk "^2.1231.0"
     concurrently "^7.6.0"
     debug "^4.3.3"
@@ -6644,7 +6599,7 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.4.1, tslib@^2.5.0, tslib@^2.5.3, tslib@^2.6.0:
+tslib@^2, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.5.0, tslib@^2.5.3, tslib@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
   integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
