@@ -467,16 +467,16 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.1.3.tgz#8f9bb9e8babc6e835042879970082c66ff93b4a8"
-  integrity sha512-ZfJKNuCg/MTlzOCo5n/M1Ne0YY0jx6q1hwMDTUWKko81vrbodCiWjX7FMo4ACfU7zJeRhvvITezMjIJ3+oCyaA==
+"@jayree/changelog@^1.1.3", "@jayree/changelog@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.1.4.tgz#6dce150c27fb2449fa8a8166d2b24f83ba7cac3c"
+  integrity sha512-MSLiS+heD2lAU9DnqT/JVmNiLQ48pr3HNVnm01B/FN4a2wRd+R1TU1a72o7q3YJvA+BmofTbHMdRqvB4mc+Xhw==
   dependencies:
     debug "^4.3.4"
     fs-extra "^11.1.1"
-    marked "^5.0.5"
+    marked "^5.1.1"
     marked-terminal "^5.2.0"
-    semver "^7.5.1"
+    semver "^7.5.4"
     semver-compare "^1.0.0"
 
 "@jridgewell/gen-mapping@^0.1.0":
@@ -1004,12 +1004,12 @@
     typescript "^4.9.5"
     wireit "^0.9.5"
 
-"@salesforce/kit@^3.0.3", "@salesforce/kit@^3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.5.tgz#0792daff4f45e1c0e0667735988815e3a01d20fb"
-  integrity sha512-Vwryx7v5z0JTV+IdoxnKFArFyVfyKPClmIXtwEH3O6uZd1mDZAp7Y3aJPoKNWgfBtQaxRalc3W5heuC1lTa5SA==
+"@salesforce/kit@^3.0.3", "@salesforce/kit@^3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.6.tgz#8fcf95dae20dce62a6d490c64aeaec379b507696"
+  integrity sha512-NtEU8dJn/zbGEWUjStSPRAlF8rq8lrOGAOAfaacsufLcpZikQZ8nZd6YUOk1A2siokPXDFCXyJbjT76F1rClpw==
   dependencies:
-    "@salesforce/ts-types" "^2.0.4"
+    "@salesforce/ts-types" "^2.0.5"
     tslib "^2.6.0"
 
 "@salesforce/prettier-config@^0.0.3":
@@ -1017,7 +1017,7 @@
   resolved "https://registry.yarnpkg.com/@salesforce/prettier-config/-/prettier-config-0.0.3.tgz#ba648d4886bb38adabe073dbea0b3a91b3753bb0"
   integrity sha512-hYOhoPTCSYMDYn+U1rlEk16PoBeAJPkrdg4/UtAzupM1mRRJOwEPMG1d7U8DxJFKuXW3DMEYWr2MwAIBDaHmFg==
 
-"@salesforce/ts-types@^2.0.4":
+"@salesforce/ts-types@^2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@salesforce/ts-types/-/ts-types-2.0.5.tgz#5471236522588e08c094fc3fda27761e6ec935fa"
   integrity sha512-X91De9ZK/X86lYcFAzoAt/pPeY6Lf+G7LyAJRx3FuYpdc+nocvniUnnJGXwSmyKMMxW2NifvQgST7FTZLZ5REA==
@@ -4541,10 +4541,10 @@ marked@^4.0.19:
   resolved "https://registry.yarnpkg.com/marked/-/marked-4.3.0.tgz#796362821b019f734054582038b116481b456cf3"
   integrity sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==
 
-marked@^5.0.5:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-5.1.0.tgz#cf51f03ba04dfb3469774029fd0106d258658767"
-  integrity sha512-z3/nBe7aTI8JDszlYLk7dDVNpngjw0o1ZJtrA9kIfkkHcIF+xH7mO23aISl4WxP83elU+MFROgahqdpd05lMEQ==
+marked@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-5.1.1.tgz#40b3963bb9da225314f746d5012ba7e34942f636"
+  integrity sha512-bTmmGdEINWmOMDjnPWDxGPQ4qkDLeYorpYbEtFOXzOruTwUE671q4Guiuchn4N8h/v6NGd7916kXsm3Iz4iUSg==
 
 "mem-fs-editor@^8.1.2 || ^9.0.0":
   version "9.5.0"
@@ -5215,14 +5215,14 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.33:
-  version "1.5.33"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.33.tgz#c042d6ec2841198326980b5efe1ca9bce1ff9983"
-  integrity sha512-8a2r90muXDEJhuX/TAiugSvCTeubi4MSHP188ALT+VZyIiM29KLUB0zr5oC1PAenvTLjuQMVAq8RGfrazYMqLQ==
+oclif-plugin-update-notifier@^1.5.35:
+  version "1.5.35"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.35.tgz#55878b94bde848ca3e4a253f43ee4314e8af85ad"
+  integrity sha512-pacdC09AxfTI0TgxoYz8IlkZIYqJaDFoh5LpUJg29I8asFgxThfrqhhVbeV2e1yZtXI9/oYHXAUqGwJimHfzlQ==
   dependencies:
-    "@jayree/changelog" "^1.1.3"
+    "@jayree/changelog" "^1.1.4"
     "@oclif/core" "^2.9.3"
-    "@salesforce/kit" "^3.0.5"
+    "@salesforce/kit" "^3.0.6"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
