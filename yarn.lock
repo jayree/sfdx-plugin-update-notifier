@@ -713,10 +713,10 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@^2.9.3", "@oclif/core@^2.9.4":
-  version "2.9.4"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.9.4.tgz#5b22415e238fc3e0db08b0350b85b417ead6e6ff"
-  integrity sha512-eFRRpV+tJ6nMkhay2M9IppjSF3atRrgj6Qo83qUslaFSAW3NAl4mIhx1mKmTwQx5rgSrar03xICtSAWJ6gZtag==
+"@oclif/core@^2.10.0", "@oclif/core@^2.9.3", "@oclif/core@^2.9.4":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.10.0.tgz#8fd4a46bdea2a45ccf090c1433e913ea454b0607"
+  integrity sha512-4csNtXBb+RKrhO2lBAwBvxuyk0B3NB45tAkSHOrJjUo1ufT+qpg9V+g7nHZBMlwoQmjlAjCOKtm6RHar8FrpZg==
   dependencies:
     "@types/cli-progress" "^3.11.0"
     ansi-escapes "^4.3.2"
@@ -5342,13 +5342,13 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.35:
-  version "1.5.35"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.35.tgz#55878b94bde848ca3e4a253f43ee4314e8af85ad"
-  integrity sha512-pacdC09AxfTI0TgxoYz8IlkZIYqJaDFoh5LpUJg29I8asFgxThfrqhhVbeV2e1yZtXI9/oYHXAUqGwJimHfzlQ==
+oclif-plugin-update-notifier@^1.5.36:
+  version "1.5.36"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.36.tgz#7c6b468e26c2ab50958e2c619bce925cf34ab774"
+  integrity sha512-TZ6R673Bf4QPK6EDJ3g7hIiinOdFx0j6x6D2eI1QlThr4OLn9DPUfEEF2YDQkNJPuZ6v0WfEnA1dpG3IQIuh3w==
   dependencies:
     "@jayree/changelog" "^1.1.4"
-    "@oclif/core" "^2.9.3"
+    "@oclif/core" "^2.10.0"
     "@salesforce/kit" "^3.0.6"
     boxen "^7.1.1"
     chalk "^5.3.0"
@@ -5358,7 +5358,7 @@ oclif-plugin-update-notifier@^1.5.35:
     package-json "^8.1.1"
     semver "^7.5.3"
     semver-diff "^4.0.0"
-    tslib "^2.5.3"
+    tslib "^2.6.1"
 
 oclif@^3.10.0:
   version "3.10.0"
@@ -6799,10 +6799,10 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.5.0, tslib@^2.5.3, tslib@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
-  integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
+tslib@^2, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.5.0, tslib@^2.6.0, tslib@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.1.tgz#fd8c9a0ff42590b25703c0acb3de3d3f4ede0410"
+  integrity sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==
 
 tsutils@^3.21.0:
   version "3.21.0"
