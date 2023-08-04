@@ -959,7 +959,7 @@
     typescript "^4.9.5"
     wireit "^0.9.5"
 
-"@salesforce/kit@^3.0.6", "@salesforce/kit@^3.0.8":
+"@salesforce/kit@^3.0.8":
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.8.tgz#bcef300a0ffdaae3c69ae81adfdee51b1c14b29b"
   integrity sha512-RPs15MTWabg/SIipjCJViVyZvGEJkux24auZW/KaMc6igjrqv6AiQT3xLXlbwvdUgkPols3knhSX/rw01YQAJQ==
@@ -5296,14 +5296,14 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.36:
-  version "1.5.36"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.36.tgz#7c6b468e26c2ab50958e2c619bce925cf34ab774"
-  integrity sha512-TZ6R673Bf4QPK6EDJ3g7hIiinOdFx0j6x6D2eI1QlThr4OLn9DPUfEEF2YDQkNJPuZ6v0WfEnA1dpG3IQIuh3w==
+oclif-plugin-update-notifier@^1.5.37:
+  version "1.5.37"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.37.tgz#669a235c5ccf7fe6a179753e646e95888b4d2e2d"
+  integrity sha512-S9HcnY7qgaH06H8GendlRYgkygWbxl/JqKLs2U3jxGWmtnluNIhlX/YyZ90Jy98prNRRowchFX9CtVtdn8EsiQ==
   dependencies:
     "@jayree/changelog" "^1.1.4"
     "@oclif/core" "^2.10.0"
-    "@salesforce/kit" "^3.0.6"
+    "@salesforce/kit" "^3.0.8"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
