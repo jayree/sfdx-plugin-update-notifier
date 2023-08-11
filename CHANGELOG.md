@@ -1,3 +1,71 @@
+## [1.2.40](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.39...v1.2.40) (2023-08-04)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/kit from 3.0.6 to 3.0.8 ([#366](https://github.com/jayree/sfdx-plugin-update-notifier/issues/366)) ([4dfb92d](https://github.com/jayree/sfdx-plugin-update-notifier/commit/4dfb92df90389e636b48ac9541d5fcda1b38c5bd))
+* **deps:** bump oclif-plugin-update-notifier from 1.5.36 to 1.5.37 ([#370](https://github.com/jayree/sfdx-plugin-update-notifier/issues/370)) ([b4d8e99](https://github.com/jayree/sfdx-plugin-update-notifier/commit/b4d8e99d5505557bc6be9429f41909144a62bed2))
+
+## [1.2.39](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.38...v1.2.39) (2023-07-28)
+
+
+### Bug Fixes
+
+* **deps:** bump oclif-plugin-update-notifier from 1.5.35 to 1.5.36 ([#361](https://github.com/jayree/sfdx-plugin-update-notifier/issues/361)) ([d2c06fd](https://github.com/jayree/sfdx-plugin-update-notifier/commit/d2c06fd03a790e06f829146b993ac5ed589791d0))
+
+## [1.2.38](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.37...v1.2.38) (2023-07-21)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 2.9.3 to 2.9.4 ([#349](https://github.com/jayree/sfdx-plugin-update-notifier/issues/349)) ([e34e0d2](https://github.com/jayree/sfdx-plugin-update-notifier/commit/e34e0d2cef2731fa91a519b6a83451aebd3cc110))
+* **deps:** bump oclif-plugin-update-notifier from 1.5.33 to 1.5.35 ([#345](https://github.com/jayree/sfdx-plugin-update-notifier/issues/345)) ([f73f719](https://github.com/jayree/sfdx-plugin-update-notifier/commit/f73f719ff55002422539f90af82a664afc3c105a))
+
+## [1.2.37](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.36...v1.2.37) (2023-07-15)
+
+
+### Bug Fixes
+
+* **deps:** bump oclif-plugin-update-notifier from 1.5.32 to 1.5.33 ([#335](https://github.com/jayree/sfdx-plugin-update-notifier/issues/335)) ([830dcba](https://github.com/jayree/sfdx-plugin-update-notifier/commit/830dcbaf51bb99db24f60261ff43ac3788d0b42b))
+
+## [1.2.36](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.35...v1.2.36) (2023-07-07)
+
+
+### Bug Fixes
+
+* **deps:** bump oclif-plugin-update-notifier from 1.5.31 to 1.5.32 ([#325](https://github.com/jayree/sfdx-plugin-update-notifier/issues/325)) ([2f36608](https://github.com/jayree/sfdx-plugin-update-notifier/commit/2f36608763a6875e40b27f88f916a55473a7398e))
+
+## [1.2.35](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.34...v1.2.35) (2023-06-30)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 2.8.7 to 2.8.10 ([#318](https://github.com/jayree/sfdx-plugin-update-notifier/issues/318)) ([44a222e](https://github.com/jayree/sfdx-plugin-update-notifier/commit/44a222e2eb05177a141ce738204109da941eb448))
+* **deps:** bump tslib from 2.5.3 to 2.6.0 ([#315](https://github.com/jayree/sfdx-plugin-update-notifier/issues/315)) ([79b45a6](https://github.com/jayree/sfdx-plugin-update-notifier/commit/79b45a67c69303a0ff61cab6b8607d0e1d6e34e5))
+
+## [1.2.34](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.33...v1.2.34) (2023-06-23)
+
+
+### Bug Fixes
+
+* **deps:** bump oclif-plugin-update-notifier from 1.5.30 to 1.5.31 ([#304](https://github.com/jayree/sfdx-plugin-update-notifier/issues/304)) ([f966c65](https://github.com/jayree/sfdx-plugin-update-notifier/commit/f966c65b693ebdfbd37f172a3eaccf31b7fec9ab))
+
+## [1.2.33](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.32...v1.2.33) (2023-06-16)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.1.2 to 1.1.3 ([#296](https://github.com/jayree/sfdx-plugin-update-notifier/issues/296)) ([bed35b9](https://github.com/jayree/sfdx-plugin-update-notifier/commit/bed35b90e74172097c7ed7babec1e73f9e00e36c))
+* **deps:** bump oclif-plugin-update-notifier from 1.5.28 to 1.5.30 ([#297](https://github.com/jayree/sfdx-plugin-update-notifier/issues/297)) ([2c74ce5](https://github.com/jayree/sfdx-plugin-update-notifier/commit/2c74ce52ed920603e2b98a0b496e447286da592b))
+
+## [1.2.32](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.31...v1.2.32) (2023-06-09)
+
+
+### Bug Fixes
+
+* **deps:** bump @salesforce/kit from 3.0.2 to 3.0.3 ([#293](https://github.com/jayree/sfdx-plugin-update-notifier/issues/293)) ([ecc2f10](https://github.com/jayree/sfdx-plugin-update-notifier/commit/ecc2f10f3eac3b2375699bf8caba027853b14afa))
+* **deps:** bump tslib from 2.5.2 to 2.5.3 ([#294](https://github.com/jayree/sfdx-plugin-update-notifier/issues/294)) ([a335ad6](https://github.com/jayree/sfdx-plugin-update-notifier/commit/a335ad6426c5a40ff9749471127976630a4432d9))
+
 ## [1.2.31](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.30...v1.2.31) (2023-06-01)
 
 
