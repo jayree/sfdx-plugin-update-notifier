@@ -728,7 +728,7 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@^2.10.0", "@oclif/core@^2.11.4", "@oclif/core@^2.11.8", "@oclif/core@^2.9.3", "@oclif/core@^2.9.4":
+"@oclif/core@^2.10.0", "@oclif/core@^2.11.4", "@oclif/core@^2.11.8", "@oclif/core@^2.9.3":
   version "2.11.8"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.11.8.tgz#780c4fdf53e8569cf754c2a8fefcc7ddeacf1747"
   integrity sha512-GILmztcHBzze45GvxRpUvqQI5nM26kSE/Q21Y+6DtMR+C8etM/hFW26D3uqIAbGlGtg5QEZZ6pjA/Fqgz+gl3A==
@@ -970,10 +970,10 @@
   resolved "https://registry.yarnpkg.com/@salesforce/dev-config/-/dev-config-4.0.1.tgz#662ffaa4409713553aaf68eed93e7d2429c3ff0e"
   integrity sha512-0zMjXG4Vjlu/mB7zbuKSXfXiP7CEZBwsPtYqNgburk/wZIU9KcMspLwVBDUxmUj9ltRksD9o1ubRUblN5M3Z0g==
 
-"@salesforce/dev-scripts@^5.4.3":
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/@salesforce/dev-scripts/-/dev-scripts-5.4.3.tgz#e17dba5be40570f7148ee9175e26384eede1a62a"
-  integrity sha512-Qkyht70ZDQGx7zNgZeZep93eG538A7g1J7Ov+ogGCG7a3ds0ehKFscjvR5t0TKQhL8ojWEjKYr44IX4SfBKOyQ==
+"@salesforce/dev-scripts@^5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@salesforce/dev-scripts/-/dev-scripts-5.7.0.tgz#349d01e7578865566f8548c22f7f462ae723fe7e"
+  integrity sha512-uzdQ87imgDg1vpugSsRqMEjo7nKx5z1WeIrW3R06Ig5QOf7OiT3+Z5zhaSvsFkjUhyA1eOJRklVu6C/AQ9ypfg==
   dependencies:
     "@commitlint/cli" "^17.1.2"
     "@commitlint/config-conventional" "^17.1.0"
@@ -1009,7 +1009,7 @@
     typescript "^4.9.5"
     wireit "^0.9.5"
 
-"@salesforce/kit@^3.0.8", "@salesforce/kit@^3.0.9":
+"@salesforce/kit@^3.0.9":
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.0.9.tgz#6674559e27914a9c79dd4283eb94eaea6177fe87"
   integrity sha512-L9xeKGdwT4q40JOZteUWgyul+xpRENNIVg336cgXYrFWs+/+7hrWlV4YZdMkLg9WRCZb1HjERJ9gHNiEKXXriA==
