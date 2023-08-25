@@ -11,7 +11,7 @@
     "@salesforce/kit": "^3.0.9",
     "debug": "^4.3.4",
     "oclif-plugin-update-notifier": "^1.5.39",
-    "tslib": "^2.6.0"
+    "tslib": "^2.6.2"
   },
   "devDependencies": {
     "@oclif/plugin-command-snapshot": "^4.0.12",
