@@ -728,10 +728,10 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@^2.10.0", "@oclif/core@^2.11.4", "@oclif/core@^2.11.8", "@oclif/core@^2.9.3":
-  version "2.11.8"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.11.8.tgz#780c4fdf53e8569cf754c2a8fefcc7ddeacf1747"
-  integrity sha512-GILmztcHBzze45GvxRpUvqQI5nM26kSE/Q21Y+6DtMR+C8etM/hFW26D3uqIAbGlGtg5QEZZ6pjA/Fqgz+gl3A==
+"@oclif/core@^2.11.10", "@oclif/core@^2.11.4", "@oclif/core@^2.11.8", "@oclif/core@^2.9.3":
+  version "2.11.10"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.11.10.tgz#638128034b8b4bdf4b23480a7278426f85130170"
+  integrity sha512-/7Umij3OU++6o+z4U+waJ5nP6IvK9KKEVzz+xsla68YoECLQwz43boUKqYizlNMtTfiwNkiYb5QE+OU/q5qEtA==
   dependencies:
     "@types/cli-progress" "^3.11.0"
     ansi-escapes "^4.3.2"
@@ -5911,14 +5911,14 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.39:
-  version "1.5.39"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.39.tgz#e626d5b8ad4d8583c546bd8977c2fb928e606d3e"
-  integrity sha512-wrTnynSzBloyHM46nPA+yxuYEoi0Zl8gVyAu5jJiEI6KGDvTzUlzwZ6qOOwKwWn/65TaDb9ATgZCzSFKYPMPpA==
+oclif-plugin-update-notifier@^1.5.40:
+  version "1.5.40"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.40.tgz#0c63164f2ecf39e9103343803164653088103660"
+  integrity sha512-6CU4F4+ZSLthm1csyi6jL4s9OOJ1sB0hJF8T1FQGndTLuNPI62YEGLB+wBjU488OS0NLs+gMQjH1peJurtpSJw==
   dependencies:
     "@jayree/changelog" "^1.1.5"
-    "@oclif/core" "^2.10.0"
-    "@salesforce/kit" "^3.0.9"
+    "@oclif/core" "^2.11.10"
+    "@salesforce/kit" "^3.0.11"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
