@@ -1,3 +1,10 @@
+## [1.2.46](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.45...v1.2.46) (2023-09-21)
+
+
+### Bug Fixes
+
+* add oclif.lock ([2bed952](https://github.com/jayree/sfdx-plugin-update-notifier/commit/2bed9529f81cb6c7984ba95c0b8a4af292ad3003))
+
 ## [1.2.45](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.44...v1.2.45) (2023-09-08)
 
 
