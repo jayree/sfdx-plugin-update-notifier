@@ -57,7 +57,8 @@
     "/lib",
     "/messages",
     "/oclif.manifest.json",
-    "/CHANGELOG.md"
+    "/CHANGELOG.md",
+    "/oclif.lock"
   ],
   "homepage": "https://github.com/jayree/sfdx-plugin-update-notifier",
   "keywords": [
