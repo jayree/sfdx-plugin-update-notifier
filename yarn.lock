@@ -482,7 +482,7 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.1.5", "@jayree/changelog@^1.1.7":
+"@jayree/changelog@^1.1.6", "@jayree/changelog@^1.1.7":
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.1.7.tgz#3b2175e25b8d2624c9214a7776925140f813fd8a"
   integrity sha512-YxTlf2c5uoqrIcEg7AwNT/Pn60h5RSbqK15PhElTX5d+R7/SHle2OV1ZBmlJR/S3gUFSY0MILcUpYJa6eeiuGg==
@@ -6029,14 +6029,14 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.43:
-  version "1.5.43"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.43.tgz#5dedd0bc44331f07be091446ac76257490ef85f0"
-  integrity sha512-R6xx0XeHq9U12gboL1Q3vTyyuikyJNuYMBuADAnwQQLI73X2xyB/VM5589NHLk8WKwsmOTsjKvX+dBrRPQZVWA==
+oclif-plugin-update-notifier@^1.5.44:
+  version "1.5.44"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.44.tgz#26ce1efc521f5e4a25753d0af168a803c1981ca6"
+  integrity sha512-SRgkwOLkTjMEMd98Co4E88R/FwIdZqwzHWeFBVrHEJA83mfUHSYn9cUIG7VxJdlxjb6oVLTcZwHtYCiN0JkKRw==
   dependencies:
-    "@jayree/changelog" "^1.1.5"
+    "@jayree/changelog" "^1.1.6"
     "@oclif/core" "^2.15.0"
-    "@salesforce/kit" "^3.0.12"
+    "@salesforce/kit" "^3.0.13"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
