@@ -5995,10 +5995,10 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.44:
-  version "1.5.44"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.44.tgz#26ce1efc521f5e4a25753d0af168a803c1981ca6"
-  integrity sha512-SRgkwOLkTjMEMd98Co4E88R/FwIdZqwzHWeFBVrHEJA83mfUHSYn9cUIG7VxJdlxjb6oVLTcZwHtYCiN0JkKRw==
+oclif-plugin-update-notifier@^1.5.45:
+  version "1.5.45"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.45.tgz#a73c85aba51fb706dc814e0f9bfa298d0ae4f535"
+  integrity sha512-pCjZ1h0fTCHantZQgcIbH6IAtcrmYUl23b1NnFoNIT9ox1vPDiYhhND5nOVyvO+r9WhW2OTtuM1hZezmIonr/g==
   dependencies:
     "@jayree/changelog" "^1.1.6"
     "@oclif/core" "^2.15.0"
