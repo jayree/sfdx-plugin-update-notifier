@@ -728,7 +728,7 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@^2.11.4", "@oclif/core@^2.11.8", "@oclif/core@^2.15.0", "@oclif/core@^2.9.3":
+"@oclif/core@^2.11.8", "@oclif/core@^2.15.0", "@oclif/core@^2.9.3":
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.15.0.tgz#f27797b30a77d13279fba88c1698fc34a0bd0d2a"
   integrity sha512-fNEMG5DzJHhYmI3MgpByTvltBOMyFcnRIUMxbiz2ai8rhaYgaTHMG3Q38HcosfIvtw9nCjxpcQtC8MN8QtVCcA==
@@ -762,10 +762,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3.0.0-beta.19":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.0.3.tgz#dbed0b2d819cd86f3733a2311a7278a304e089e4"
-  integrity sha512-5xdT3xFXOSsR8AtE2VNswTjCxFQFLptfnkmhhgWqKbSkFBmtix0n5EN560xmeasVku/5eZdA6juEZunS5ZKIXg==
+"@oclif/core@^3.0.0-beta.19", "@oclif/core@^3.0.4":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.0.6.tgz#077e09d1470f14fba1c5666e77476660bdb4b601"
+  integrity sha512-tBe72CDHkst4bpbL1wVspleFnIkwNYgNeXI5dWyWP+Z0Rk4HUe3AdZzqndbm8a9n1OG5l4SOm0O4Qmp60gmsQQ==
   dependencies:
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
@@ -1449,7 +1449,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/utils@6.7.5":
+"@typescript-eslint/utils@6.7.5", "@typescript-eslint/utils@^6.6.0":
   version "6.7.5"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-6.7.5.tgz#ab847b53d6b65e029314b8247c2336843dba81ab"
   integrity sha512-pfRRrH20thJbzPPlPc4j0UNGvH1PjPlhlCMq4Yx7EGjV7lvEeGX0U6MJYe8+SyFutWgSHsdbJ3BXzZccYggezA==
@@ -2252,7 +2252,7 @@ chalk@^5.2.0, chalk@^5.3.0:
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
   integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
 
-change-case@^4.1.2:
+change-case@^4, change-case@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/change-case/-/change-case-4.1.2.tgz#fedfc5f136045e2398c0410ee441f95704641e12"
   integrity sha512-bSxY2ws9OtviILG1EiY5K7NNxkqg/JnRnFxLtKQ96JaviiIxi7djMrSd0ECT9AC+lttClmYwKw53BWpOMblo7A==
@@ -3205,6 +3205,15 @@ eslint-plugin-jsdoc@^46.8.2:
     is-builtin-module "^3.2.1"
     semver "^7.5.4"
     spdx-expression-parse "^3.0.1"
+
+eslint-plugin-perfectionist@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-2.1.0.tgz#08809661661d98010cd69de3b6a1e19c8a977cce"
+  integrity sha512-KVA7H6J/qfmZH/WopNKFgYbKoX+ozKAOIeQvo/+jibn6k9e71Et+giIHEHrMICZ043CeGpRKrCRRhlmD7pjeRg==
+  dependencies:
+    "@typescript-eslint/utils" "^6.6.0"
+    minimatch "^9.0.3"
+    natural-compare-lite "^1.4.0"
 
 eslint-plugin-prefer-arrow@^1.2.1:
   version "1.2.3"
@@ -5023,6 +5032,11 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash._reinterpolate@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
+  integrity sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==
+
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
@@ -5102,6 +5116,21 @@ lodash.startcase@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.startcase/-/lodash.startcase-4.4.0.tgz#9436e34ed26093ed7ffae1936144350915d9add8"
   integrity sha512-+WKqsK294HMSc2jEbNgpHpd0JfIBhp7rEV4aqXWqFr6AlXov+SlcgB1Fv01y2kGe3Gc8nMW7VA0SrGuSkRfIEg==
+
+lodash.template@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
+  integrity sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==
+  dependencies:
+    lodash._reinterpolate "^3.0.0"
+    lodash.templatesettings "^4.0.0"
+
+lodash.templatesettings@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.templatesettings/-/lodash.templatesettings-4.2.0.tgz#e481310f049d3cf6d47e912ad09313b154f0fb33"
+  integrity sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==
+  dependencies:
+    lodash._reinterpolate "^3.0.0"
 
 lodash.uniq@^4.5.0:
   version "4.5.0"
@@ -5416,6 +5445,13 @@ minimatch@^7.2.0:
   dependencies:
     brace-expansion "^2.0.1"
 
+minimatch@^9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.3.tgz#a6e00c3de44c3a542bfaae70abfc22420a6da825"
+  integrity sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==
+  dependencies:
+    brace-expansion "^2.0.1"
+
 minimist-options@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/minimist-options/-/minimist-options-4.1.0.tgz#c0655713c53a8a2ebd77ffa247d342c40f010619"
@@ -5645,6 +5681,11 @@ nanoid@3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.3.tgz#fd8e8b7aa761fe807dba2d1b98fb7241bb724a25"
   integrity sha512-p1sjXuopFs0xg+fPASzQ28agW1oHD7xDsd9Xkf3T15H3c/cifrFHVwrh74PdoklAPi+i7MdRsE47vm2r6JoB+w==
+
+natural-compare-lite@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz#17b09581988979fddafe0201e931ba933c96cbb4"
+  integrity sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -6013,28 +6054,28 @@ oclif-plugin-update-notifier@^1.5.45:
     semver-diff "^4.0.0"
     tslib "^2.6.1"
 
-oclif@^3.17.2:
-  version "3.17.2"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.17.2.tgz#f13756c9b1968047e76b99cb09db9725e96fb2f6"
-  integrity sha512-+vFXxgmR7dGGz+g6YiqSZu2LXVkBMaS9/rhtsLGkYw45e53CW/3kBgPRnOvxcTDM3Td9JPeBD2JWxXnPKGQW3A==
+oclif@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.0.1.tgz#67881adb9432d04ad1fcaefff17b3246d07cd6ef"
+  integrity sha512-GvCrCYLfHG98cD1UA9eYo+cUyKyTf80gvaOVvaTChQXLBhG6VV4NJrk4+2ESqRFZeWpAvUcxAMVmTdZUcMjN8w==
   dependencies:
-    "@oclif/core" "^2.11.4"
+    "@oclif/core" "^3.0.4"
     "@oclif/plugin-help" "^5.2.14"
     "@oclif/plugin-not-found" "^2.3.32"
     "@oclif/plugin-warn-if-update-available" "^2.0.44"
     async-retry "^1.3.3"
     aws-sdk "^2.1231.0"
+    change-case "^4"
     concurrently "^7.6.0"
     debug "^4.3.3"
+    eslint-plugin-perfectionist "^2.1.0"
     find-yarn-workspace-root "^2.0.0"
     fs-extra "^8.1"
     github-slugger "^1.5.0"
     got "^11"
-    lodash "^4.17.21"
+    lodash.template "^4.5.0"
     normalize-package-data "^3.0.3"
     semver "^7.3.8"
-    shelljs "^0.8.5"
-    tslib "^2.3.1"
     yeoman-environment "^3.15.1"
     yeoman-generator "^5.8.0"
 
@@ -7727,7 +7768,7 @@ tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.1, tslib@^2.5.0, tslib@^2.6.0, tslib@^2.6.1, tslib@^2.6.2:
+tslib@^2, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.5.0, tslib@^2.6.0, tslib@^2.6.1, tslib@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
