@@ -6062,14 +6062,14 @@ object.values@^1.1.6:
     define-properties "^1.1.4"
     es-abstract "^1.20.4"
 
-oclif-plugin-update-notifier@^1.5.46:
-  version "1.5.46"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.46.tgz#8dd7b177054ff1d1f560be1c8b7cb763b3bebb94"
-  integrity sha512-VOK5XKYnFekT0QKqP89nThiq8+b+SF5QMJ4sOc+XTeLrW6bc00+VIObqzFtfuA8zrHX8QUG1qaId1dmWtxrRRQ==
+oclif-plugin-update-notifier@^1.5.47:
+  version "1.5.47"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.47.tgz#c708d1a678dfa039d6b490c57e91903cf7dc842e"
+  integrity sha512-MduuLPoSZygVKatAZ5qtpBw2WKn4JJrZuXdASAsp5jHjyQeZbwOO7kYl68PwlYO3BDhzbEnSQtVl+D8RB9kq+Q==
   dependencies:
     "@jayree/changelog" "^1.1.7"
     "@oclif/core" "^3.0.9"
-    "@salesforce/kit" "^3.0.13"
+    "@salesforce/kit" "^3.0.14"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
