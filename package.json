@@ -20,7 +20,7 @@
     "@salesforce/dev-scripts": "^7.1.1",
     "@types/debug": "^4.1.12",
     "@types/fs-extra": "^11.0.4",
-    "@types/jsforce": "^1.11.4",
+    "@types/jsforce": "^1.11.5",
     "c8": "^8.0.1",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-sf-plugin": "^1.16.15",
