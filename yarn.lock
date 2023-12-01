@@ -3639,10 +3639,10 @@ fromentries@^1.2.0:
   resolved "https://registry.yarnpkg.com/fromentries/-/fromentries-1.3.2.tgz#e4bca6808816bf8f93b52750f1127f5a6fd86e3a"
   integrity sha512-cHEpEQHUg0f8XdtZCc2ZAhrHzKzT0MrFUTcvx+hfxYu7rGMDc5SKoXFh+n4YigxsHXRzc6OrCshdR1bWH6HHyg==
 
-fs-extra@^11.0.0, fs-extra@^11.1.1:
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.1.tgz#da69f7c39f3b002378b0954bb6ae7efdc0876e2d"
-  integrity sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==
+fs-extra@^11.0.0, fs-extra@^11.1.1, fs-extra@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.2.0.tgz#e70e17dfad64232287d01929399e0ea7c86b0e5b"
+  integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -6018,18 +6018,18 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.51:
-  version "1.5.51"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.51.tgz#a17e005c7726b3fc8479b18f8bd37f19ef64e892"
-  integrity sha512-Kelx1jLEtDdL8Ioo/806dBbfFR7tsP1yF6Pbqz7QRW7cQbPpZR73XStB1iyGhsAtqILZtP4cX6YrlbRaAfvJ1w==
+oclif-plugin-update-notifier@^1.5.52:
+  version "1.5.52"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.52.tgz#b155e4404b275348d2d35302b8fef77c17bca705"
+  integrity sha512-v2XHfa7gpRvY1KbHTbVgbI5+3Sbz0p7W9nJUcrQ43ML3ICs5Sp0XXJlphGzMVJIeIViJejJ/4kJuOZObSHfXIw==
   dependencies:
     "@jayree/changelog" "^1.1.8"
-    "@oclif/core" "^3.12.0"
+    "@oclif/core" "^3.13.1"
     "@salesforce/kit" "^3.0.15"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
-    fs-extra "^11.1.1"
+    fs-extra "^11.2.0"
     got "^13.0.0"
     package-json "^8.1.1"
     semver "^7.5.3"
