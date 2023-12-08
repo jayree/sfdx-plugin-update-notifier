@@ -758,7 +758,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3.0.4", "@oclif/core@^3.10.8", "@oclif/core@^3.11.0", "@oclif/core@^3.12.0", "@oclif/core@^3.13.1", "@oclif/core@^3.14.1", "@oclif/core@^3.3.1":
+"@oclif/core@^3.0.4", "@oclif/core@^3.10.8", "@oclif/core@^3.11.0", "@oclif/core@^3.12.0", "@oclif/core@^3.14.1", "@oclif/core@^3.3.1":
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.14.1.tgz#634fc96124068e47b720d62f3b278d818a07495e"
   integrity sha512-HLFL2s45DFdqYI2CFjVS/CIQ4cQ4yZqH0XqO9nnwcRWYboz2rEW/vLmidjIYGDjh6xA/k5psiAL3O1KEjqSHuQ==
@@ -1077,6 +1077,11 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-5.3.0.tgz#0ec9264cf54a527671d990eb874e030b55b70dcc"
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
+"@sindresorhus/is@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-6.1.0.tgz#71a4ca5171888fb7fc36c6d1ff3604b0a5e43555"
+  integrity sha512-BuvU07zq3tQ/2SIgBsEuxKYDyDjC0n7Zir52bpHy2xnBbW81+po43aLFPLbeV3HRAheFbGud1qgcqSYfhtHMAg==
+
 "@sinonjs/commons@^1.6.0", "@sinonjs/commons@^1.7.0", "@sinonjs/commons@^1.8.1":
   version "1.8.6"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.6.tgz#80c516a4dc264c2a69115e7578d62581ff455ed9"
@@ -1225,6 +1230,11 @@
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.1.tgz#0ea7b61496902b95890dc4c3a116b60cb8dae812"
   integrity sha512-SZs7ekbP8CN0txVG2xVRH6EgKmEm31BOxA07vkFaETzZz1xh+cbt8BcI0slpymvwhx5dlFnQG2rTlPVQn+iRPQ==
+
+"@types/http-cache-semantics@^4.0.2":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.4.tgz#b979ebad3919799c979b17c72621c0bc0a31c6c4"
+  integrity sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==
 
 "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.4"
@@ -2110,6 +2120,19 @@ cacheable-lookup@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/cacheable-lookup/-/cacheable-lookup-7.0.0.tgz#3476a8215d046e5a3202a9209dd13fec1f933a27"
   integrity sha512-+qJyx4xiKra8mZrcwhjMRMUhD5NR1R8esPkzIYxX96JiecFoxAXFuz/GpR3+ev4PE1WamHip78wV0vcmPQtp8w==
+
+cacheable-request@^10.2.14:
+  version "10.2.14"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-10.2.14.tgz#eb915b665fda41b79652782df3f553449c406b9d"
+  integrity sha512-zkDT5WAF4hSSoUgyfg5tFIxz8XQK+25W/TLVojJTMKBaxevLBBtLxgqguAuVQB8PVW79FVjHcU+GJ9tVbDZ9mQ==
+  dependencies:
+    "@types/http-cache-semantics" "^4.0.2"
+    get-stream "^6.0.1"
+    http-cache-semantics "^4.1.1"
+    keyv "^4.5.3"
+    mimic-response "^4.0.0"
+    normalize-url "^8.0.0"
+    responselike "^3.0.0"
 
 cacheable-request@^10.2.8:
   version "10.2.8"
@@ -3625,6 +3648,11 @@ form-data-encoder@^2.1.2:
   resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-2.1.4.tgz#261ea35d2a70d48d30ec7a9603130fa5515e9cd5"
   integrity sha512-yDYSgNMraqvnxiEXO4hi88+YZxaHC6QKzb5N84iRCTDeRO7ZALpir/lVmf/uXUhnwUr2O4HU8s/n6x+yNjQkHw==
 
+form-data-encoder@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-4.0.2.tgz#dd286fd5f9049e8ded1d44ce427f5e29185c7c12"
+  integrity sha512-KQVhvhK8ZkWzxKxOr56CPulAhH3dobtuQ4+hNQ+HekH/Wp5gSOafqRAeTphQUJAIk0GBvHZgJ2ZGRWd5kphMuw==
+
 form-data@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
@@ -3804,6 +3832,11 @@ get-stream@^6.0.0, get-stream@^6.0.1:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
+get-stream@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-8.0.1.tgz#def9dfd71742cd7754a7761ed43749a27d02eca2"
+  integrity sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==
+
 get-symbol-description@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/get-symbol-description/-/get-symbol-description-1.0.0.tgz#7fdb81c900101fbd564dd5f1a30af5aadc1e58d6"
@@ -3974,21 +4007,21 @@ got@^12.1.0:
     p-cancelable "^3.0.0"
     responselike "^3.0.0"
 
-got@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/got/-/got-13.0.0.tgz#a2402862cef27a5d0d1b07c0fb25d12b58175422"
-  integrity sha512-XfBk1CxOOScDcMr9O1yKkNaQyy865NbYs+F7dr4H0LZMVgCj2Le59k6PqbNHoL5ToeaEQUYh6c6yMfVcc6SJxA==
+got@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.0.0.tgz#c95023942e4149cea46701adc7ed591eb9104d37"
+  integrity sha512-X01vTgaX9SwaMq5DfImvS+3GMQFFs5HtrrlS9CuzUSzkxAf/tWGEyynuI+Qy7BjciMczZGjyVSmawYbP4eYhYA==
   dependencies:
-    "@sindresorhus/is" "^5.2.0"
+    "@sindresorhus/is" "^6.1.0"
     "@szmarczak/http-timer" "^5.0.1"
     cacheable-lookup "^7.0.0"
-    cacheable-request "^10.2.8"
+    cacheable-request "^10.2.14"
     decompress-response "^6.0.0"
-    form-data-encoder "^2.1.2"
-    get-stream "^6.0.1"
-    http2-wrapper "^2.1.10"
+    form-data-encoder "^4.0.2"
+    get-stream "^8.0.1"
+    http2-wrapper "^2.2.1"
     lowercase-keys "^3.0.0"
-    p-cancelable "^3.0.0"
+    p-cancelable "^4.0.1"
     responselike "^3.0.0"
 
 graceful-fs@4.2.10, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.5, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
@@ -4177,6 +4210,14 @@ http2-wrapper@^2.1.10:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/http2-wrapper/-/http2-wrapper-2.2.0.tgz#b80ad199d216b7d3680195077bd7b9060fa9d7f3"
   integrity sha512-kZB0wxMo0sh1PehyjJUWRFEd99KC5TLjZ2cULC4f9iqJBAmKQQXEICjxl5iPJRwP40dpeHFqqhm7tYCvODpqpQ==
+  dependencies:
+    quick-lru "^5.1.1"
+    resolve-alpn "^1.2.0"
+
+http2-wrapper@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/http2-wrapper/-/http2-wrapper-2.2.1.tgz#310968153dcdedb160d8b72114363ef5fce1f64a"
+  integrity sha512-V5nVw1PAOgfI3Lmeaj2Exmeg7fenjhRUgz1lPSezy1CuhPYbgQtbQj4jZfEAEMlaL+vupsvhjqCyjzob0yxsmQ==
   dependencies:
     quick-lru "^5.1.1"
     resolve-alpn "^1.2.0"
@@ -4987,6 +5028,13 @@ keyv@^4.0.0, keyv@^4.5.2:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.2.tgz#0e310ce73bf7851ec702f2eaf46ec4e3805cce56"
   integrity sha512-5MHbFaKn8cNSmVW7BYnijeAVlE4cYA/SVkifVgrh7yotnfhKmjuXpDKjrABLnT0SfHWV21P8ow07OGfRrNDg8g==
+  dependencies:
+    json-buffer "3.0.1"
+
+keyv@^4.5.3:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.4.tgz#a879a99e29452f942439f2a405e3af8b31d4de93"
+  integrity sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==
   dependencies:
     json-buffer "3.0.1"
 
@@ -6018,19 +6066,19 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.52:
-  version "1.5.52"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.52.tgz#b155e4404b275348d2d35302b8fef77c17bca705"
-  integrity sha512-v2XHfa7gpRvY1KbHTbVgbI5+3Sbz0p7W9nJUcrQ43ML3ICs5Sp0XXJlphGzMVJIeIViJejJ/4kJuOZObSHfXIw==
+oclif-plugin-update-notifier@^1.5.54:
+  version "1.5.54"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.54.tgz#9eaed6ca1a254a2e7fbb8fe8228eb3860b7bc030"
+  integrity sha512-yC4p9SVHdpwLjPBNNeMze40YeqWH8wfhkuCOGVGG+j/08d31sJcSdcuFo5ZxzYeGjVHMALKmg+tWg9JgPzjEvw==
   dependencies:
     "@jayree/changelog" "^1.1.8"
-    "@oclif/core" "^3.13.1"
+    "@oclif/core" "^3.14.1"
     "@salesforce/kit" "^3.0.15"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
     fs-extra "^11.2.0"
-    got "^13.0.0"
+    got "^14.0.0"
     package-json "^8.1.1"
     semver "^7.5.3"
     semver-diff "^4.0.0"
@@ -6145,6 +6193,11 @@ p-cancelable@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/p-cancelable/-/p-cancelable-3.0.0.tgz#63826694b54d61ca1c20ebcb6d3ecf5e14cd8050"
   integrity sha512-mlVgR3PGuzlo0MmTdk4cXqXWlwQDLnONTAg6sm62XkMJEiRxN3GL3SffkYvqwonbkJBcrI7Uvv5Zh9yjvn2iUw==
+
+p-cancelable@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/p-cancelable/-/p-cancelable-4.0.1.tgz#2d1edf1ab8616b72c73db41c4bc9ecdd10af640e"
+  integrity sha512-wBowNApzd45EIKdO1LaU+LrMBwAcjfPaYtVzV3lmfM3gf8Z4CHZsiIqlM8TZZ8okYvh5A1cP6gTfCRQtwUpaUg==
 
 p-finally@^1.0.0:
   version "1.0.0"
