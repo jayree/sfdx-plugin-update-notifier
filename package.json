@@ -68,7 +68,8 @@
         "releaseNotesPath": "https://github.com/jayree/sfdx-plugin-update-notifier/tree/main",
         "releaseNotesFilename": "CHANGELOG.md"
       }
-    }
+    },
+    "topicSeparator": " "
   },
   "repository": "jayree/sfdx-plugin-update-notifier",
   "scripts": {
