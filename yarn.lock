@@ -5061,10 +5061,10 @@ got@^13.0.0:
     p-cancelable "^3.0.0"
     responselike "^3.0.0"
 
-got@^14.1.0:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.1.0.tgz#426718b9d2e539efa46c7b413e7659b40d38bb24"
-  integrity sha512-jGmSBfxa7jOGg464azcsf/cUlJBZldU8edFpiVebIJrVBE4vqVx0t3Z2f1kz1WrcMvLgQREoC/l2ttDmSHwyRg==
+got@^14.2.0:
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.2.0.tgz#59b453e379e81a6e9e6aa3b39ab3cbde47b1b150"
+  integrity sha512-dBq2KkHcQl3AwPoIWsLsQScCPpUgRulz1qZVthjPYKYOPmYfBnekR3vxecjZbm91Vc3JUGnV9mqFX7B+Fe2quw==
   dependencies:
     "@sindresorhus/is" "^6.1.0"
     "@szmarczak/http-timer" "^5.0.1"
@@ -7127,21 +7127,21 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.60:
-  version "1.5.60"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.60.tgz#81cf919d845c62bd4b4a3d32f5c71af2bd742c9f"
-  integrity sha512-OvPlujpIOuB0CARv0Hn231W/rgSAIMCSaFzKAUl4ooIyqM5SNY2U/5sOYVFvK/56dFuTfPVJ036/I/e5Jc8lKw==
+oclif-plugin-update-notifier@^1.5.61:
+  version "1.5.61"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.61.tgz#f82f4b5d1e919f7b9a8b1c6f03df216ca3dc6eae"
+  integrity sha512-8vo5UJnq8vxs1aVi7MYPBbs7/m1VmtEcqA2f+0JxHfrXFWrpfCwlPCpMhmlTuQet8GE33n5DjTTrQ9v4ZNaTgw==
   dependencies:
     "@jayree/changelog" "^1.1.9"
-    "@oclif/core" "^3.18.2"
+    "@oclif/core" "^3.19.1"
     "@salesforce/kit" "^3.0.15"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
     fs-extra "^11.2.0"
-    got "^14.1.0"
+    got "^14.2.0"
     package-json "^9.0.0"
-    semver "^7.5.3"
+    semver "^7.6.0"
     semver-diff "^4.0.0"
     tslib "^2.6.1"
 
@@ -8206,10 +8206,10 @@ semver@^6.0.0, semver@^6.3.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.1.1, semver@^7.1.3, semver@^7.2.1, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4:
-  version "7.5.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
-  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
+semver@^7.1.1, semver@^7.1.3, semver@^7.2.1, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0:
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.0.tgz#1a46a4db4bffcccd97b743b5005c8325f23d4e2d"
+  integrity sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==
   dependencies:
     lru-cache "^6.0.0"
 
