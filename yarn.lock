@@ -1156,7 +1156,7 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.1.10", "@jayree/changelog@^1.1.9":
+"@jayree/changelog@^1.1.10":
   version "1.1.10"
   resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.1.10.tgz#4bcd26567a15028d8d7f9baf8502e3df3e3c0906"
   integrity sha512-msN/IfTb3+Z1Ug47FzSZDtTzUu2nE6PYWSmddFXhn5rfE8Qp3mkTQyIXZJDNMbGfKynTpXt/ZLNct6CScoxNQg==
@@ -1391,10 +1391,10 @@
     node-gyp "^8.2.0"
     read-package-json-fast "^2.0.1"
 
-"@oclif/core@^3.18.2", "@oclif/core@^3.19.1", "@oclif/core@^3.19.2", "@oclif/core@^3.19.5":
-  version "3.19.5"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.19.5.tgz#6523684c1ca94e05479569532177121cef35be21"
-  integrity sha512-banrxfcaWo0/xEk9LfDLt+jV+4+tR7bUBFRFXPIA9AAjikRWGV+mpSN5M3UvoaZM6aj4q5mZN7bhegxTzQcDtQ==
+"@oclif/core@^3.18.2", "@oclif/core@^3.19.1", "@oclif/core@^3.19.2", "@oclif/core@^3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.20.0.tgz#534458dc6e8c46d8f03906aaadaca079e16a6554"
+  integrity sha512-8BajhglY8frYGAS1whAukeouFZUN9MgQoLfNXtScPVEAjPlaD2BbSIAYQH2yF2qb/iVvbj/1DwYS3gqicYOq1A==
   dependencies:
     "@types/cli-progress" "^3.11.5"
     ansi-escapes "^4.3.2"
@@ -7145,13 +7145,13 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.63:
-  version "1.5.63"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.63.tgz#05494c3e88c3b0feaa67b80e5d0b44eeac0ae3f8"
-  integrity sha512-E7ZG6nl93HnrVORuO9OTL3GHR2ZKmh7nwDvZ21OF7clKG1mz9m+1UfijgYYGu9t2WGMKXkTl3LK0Ax3+fM+wlg==
+oclif-plugin-update-notifier@^1.5.64:
+  version "1.5.64"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.64.tgz#9ec26545950bae8d40e7323c0cde8aea65cb0492"
+  integrity sha512-mlKe8lB5j9RCChGzVbNTZznvDSRQNIVcb9da7sBquHMJM3eizlbMLEWr8c84SIRO60JislZXmc9GHwhsB6g0tw==
   dependencies:
-    "@jayree/changelog" "^1.1.9"
-    "@oclif/core" "^3.19.5"
+    "@jayree/changelog" "^1.1.10"
+    "@oclif/core" "^3.20.0"
     "@salesforce/kit" "^3.0.15"
     boxen "^7.1.1"
     chalk "^5.3.0"
