@@ -37,11 +37,12 @@
     "node": ">=16.0.0"
   },
   "files": [
+    "/CHANGELOG.md",
     "/lib",
     "/messages",
-    "/oclif.manifest.json",
-    "/CHANGELOG.md",
-    "/oclif.lock"
+    "/npm-shrinkwrap.json",
+    "/oclif.lock",
+    "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/jayree/sfdx-plugin-update-notifier",
   "keywords": [
@@ -80,6 +81,7 @@
     "docs": "sf-docs",
     "format": "wireit",
     "lint": "wireit",
+    "postpack": "sf-clean --ignore-signing-artifacts",
     "prepack": "sf-prepack",
     "prepare": "patch-package && sf-install",
     "test": "wireit",
