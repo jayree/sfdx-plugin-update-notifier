@@ -21,7 +21,7 @@ $ npm install -g sfdx-plugin-update-notifier
 $ sfdx COMMAND
 running command...
 $ sfdx (--version)
-sfdx-plugin-update-notifier/1.2.71 linux-x64 node-v20.11.1
+sfdx-plugin-update-notifier/1.2.72 linux-x64 node-v20.11.1
 $ sfdx --help [COMMAND]
 USAGE
   $ sfdx COMMAND
