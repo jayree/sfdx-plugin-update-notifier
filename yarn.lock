@@ -1554,10 +1554,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3.21.0", "@oclif/core@^3.26.0", "@oclif/core@^3.26.2":
-  version "3.26.2"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.26.2.tgz#92a92516e1309e5b1241c1b4932ab1d2546e294a"
-  integrity sha512-Gpn21jKjcOx0TecI1wLJrY/65jtgJx5f1GzTc81oKvEpKes1b3Li2SMZygRaWRpcQ3wjN0d7lTPi8WwLsmTBjA==
+"@oclif/core@^3.21.0", "@oclif/core@^3.26.0", "@oclif/core@^3.26.2", "@oclif/core@^3.26.3":
+  version "3.26.3"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.26.3.tgz#2416f4f5e3e5b9434999edb2f94983c5ac07e8a2"
+  integrity sha512-e6Vwu+cb2Sn4qFFpmY1fQLRWIY5ugruMuN94xb7+kyUzxrirYjJATPhuCT1G5xj9Dk+hTMH+Sp6XcHcVTS1lHg==
   dependencies:
     "@types/cli-progress" "^3.11.5"
     ansi-escapes "^4.3.2"
@@ -1568,7 +1568,7 @@
     cli-progress "^3.12.0"
     color "^4.2.3"
     debug "^4.3.4"
-    ejs "^3.1.9"
+    ejs "^3.1.10"
     get-package-type "^0.1.0"
     globby "^11.1.0"
     hyperlinker "^1.0.0"
@@ -1631,12 +1631,12 @@
     http-call "^5.2.2"
     lodash.template "^4.5.0"
 
-"@oclif/test@^3.2.9":
-  version "3.2.9"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.2.9.tgz#73b40d80f8e94b15dded0dd9333f5cf95a136f4c"
-  integrity sha512-eVZO4I29Ipp7WlwAZOmQ/Z0Dm/J9qnTUTAqKHlylEmp9JYfVQ3C+SqZVNNp3KJ+D/XJMC7xQ748JDBQFUZebbA==
+"@oclif/test@^3.2.10":
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.2.10.tgz#48fdf3ebb339e81955a42c1e9a23f5f673c39261"
+  integrity sha512-9h6rMHnFS7zf0CLmfqtbAmdDSLpYF8otu25YpeqQXOX3b9TYeyfOvD61TkkxJ2T3zpqnrViNzifsF6gfM6xanQ==
   dependencies:
-    "@oclif/core" "^3.26.0"
+    "@oclif/core" "^3.26.3"
     chai "^4.4.1"
     fancy-test "^3.0.14"
 
@@ -3833,6 +3833,13 @@ ecdsa-sig-formatter@1.0.11:
   integrity sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==
   dependencies:
     safe-buffer "^5.0.1"
+
+ejs@^3.1.10:
+  version "3.1.10"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.10.tgz#69ab8358b14e896f80cc39e62087b88500c3ac3b"
+  integrity sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==
+  dependencies:
+    jake "^10.8.5"
 
 ejs@^3.1.9:
   version "3.1.9"
