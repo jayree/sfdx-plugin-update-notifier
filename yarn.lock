@@ -6290,10 +6290,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.71:
-  version "1.5.71"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.71.tgz#5cf74fe08a7635db519e505b33a8ddfaa74846cf"
-  integrity sha512-21XbzO3y20H9ELVqEWswDjQmPxVueJobiHH5BLJCL3GrDwxlEgxWDT+lpvc+Rw9KyKUCw7JIFvl/TFw9fJzjAQ==
+oclif-plugin-update-notifier@^1.5.72:
+  version "1.5.72"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.72.tgz#08c24a77a0cf97b495f9b2ab5c4d06f3d9a9a22e"
+  integrity sha512-zfz4m0elNyPThbn8Q5lQbG8OmpyLqrBnIJx20mRyVt5A8TxzOf4tVO19qASYT8iOaHVh5Gue+ZqhV1iizWttag==
   dependencies:
     "@jayree/changelog" "^1.1.11"
     "@oclif/core" "^3.26.5"
@@ -6304,7 +6304,7 @@ oclif-plugin-update-notifier@^1.5.71:
     fs-extra "^11.2.0"
     got "^14.2.1"
     package-json "^10.0.0"
-    semver "^7.6.0"
+    semver "^7.6.2"
     semver-diff "^4.0.0"
     tslib "^2.6.1"
 
@@ -7146,12 +7146,10 @@ semver@^6.0.0, semver@^6.3.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.0.0, semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.0.tgz#1a46a4db4bffcccd97b743b5005c8325f23d4e2d"
-  integrity sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==
-  dependencies:
-    lru-cache "^6.0.0"
+semver@^7.0.0, semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.2:
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.2.tgz#1e3b34759f896e8f14d6134732ce798aeb0c6e13"
+  integrity sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==
 
 sentence-case@^3.0.4:
   version "3.0.4"
