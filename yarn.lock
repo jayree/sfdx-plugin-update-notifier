@@ -4838,10 +4838,10 @@ got@^13:
     p-cancelable "^3.0.0"
     responselike "^3.0.0"
 
-got@^14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.3.0.tgz#3b889f9b2ed0e5a312077d8564a3ac6662c483ef"
-  integrity sha512-vZkrXdq5BtPWTXqvjXSpl6zky3zpHaOVfSug/RfFHu3YrtSsvYzopVMDqrh2do77WnGoCSSRCHW25zXOSAQ9zw==
+got@^14.4.1:
+  version "14.4.1"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.4.1.tgz#23966728d8bc8606de3841ba6db9f81518d39a24"
+  integrity sha512-IvDJbJBUeexX74xNQuMIVgCRRuNOm5wuK+OC3Dc2pnSoh1AOmgc7JVj7WC+cJ4u0aPcO9KZ2frTXcqK4W/5qTQ==
   dependencies:
     "@sindresorhus/is" "^6.3.1"
     "@szmarczak/http-timer" "^5.0.1"
@@ -4854,6 +4854,7 @@ got@^14.3.0:
     lowercase-keys "^3.0.0"
     p-cancelable "^4.0.1"
     responselike "^3.0.0"
+    type-fest "^4.19.0"
 
 graceful-fs@4.2.10:
   version "4.2.10"
@@ -6315,10 +6316,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.76:
-  version "1.5.76"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.76.tgz#0eefb0a05bb2d21327e17e6515ad3788dc7a06a8"
-  integrity sha512-EwLwsPe5KI3j5vsGmx8FJreEV/T5VhXXR61svnDREvG66niCRnC8BxBZv+JlvNLtSe5xuZc1vP56Vp3p5s3+9w==
+oclif-plugin-update-notifier@^1.5.77:
+  version "1.5.77"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.77.tgz#ebdd0969c8539c122431e7ae18601f5e7df1d356"
+  integrity sha512-UXvQRTuzCugSGMU8VOdboHZCwhc0n4Vz0jYJwFa3LOORQGnmMlyTdzIr4CXKbUq/xmEx4XOGF3WGzhxW0F1YUA==
   dependencies:
     "@jayree/changelog" "^1.1.12"
     "@oclif/core" "^3.26.6"
@@ -6327,11 +6328,11 @@ oclif-plugin-update-notifier@^1.5.76:
     chalk "^5.3.0"
     debug "^4.3.4"
     fs-extra "^11.2.0"
-    got "^14.3.0"
+    got "^14.4.1"
     package-json "^10.0.0"
     semver "^7.6.2"
     semver-diff "^4.0.0"
-    tslib "^2.6.1"
+    tslib "^2.6.3"
 
 oclif@^4.11.3:
   version "4.11.3"
@@ -7775,7 +7776,7 @@ tslib@^1.11.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.3, tslib@^2.3.1, tslib@^2.5.0, tslib@^2.6.1, tslib@^2.6.2, tslib@^2.6.3:
+tslib@^2.0.3, tslib@^2.3.1, tslib@^2.5.0, tslib@^2.6.2, tslib@^2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.3.tgz#0438f810ad7a9edcde7a241c3d80db693c8cbfe0"
   integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
@@ -7833,6 +7834,11 @@ type-fest@^3.0.0:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.1.tgz#bb744c1f0678bea7543a2d1ec24e83e68e8c8706"
   integrity sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==
+
+type-fest@^4.19.0:
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.19.0.tgz#f7d3d5f55a7a118b5fe3d2eef53059cf8e516dcd"
+  integrity sha512-CN2l+hWACRiejlnr68vY0/7734Kzu+9+TOslUXbSCQ1ruY9XIHDBSceVXCcHm/oXrdzhtLMMdJEKfemf1yXiZQ==
 
 typed-array-buffer@^1.0.2:
   version "1.0.2"
