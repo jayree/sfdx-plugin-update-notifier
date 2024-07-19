@@ -1570,7 +1570,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^4", "@oclif/core@^4.0.11", "@oclif/core@^4.0.12":
+"@oclif/core@^4", "@oclif/core@^4.0.12":
   version "4.0.12"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.0.12.tgz#b47089631827e2c909bfffc8c14d7b1781e502ce"
   integrity sha512-o2dfPtmi2uBGHgpvHr+GNfoRKysKgQGiffONoMN3R+qBVNeIkJIZhVk31HreDkAI9LAzS92BWNgp/l7lXDxdvg==
@@ -6299,21 +6299,21 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.84:
-  version "1.5.84"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.84.tgz#364fe3543649d16fe44e31e926b5926de9832e6c"
-  integrity sha512-PPmW46Y8rvz9W1i0dG3iFr54eJh52C/SHXKmy0yhJ+I4wH13EPGWN1n2Wll9+JPCc0wZp1huEi53MQWr9w12wQ==
+oclif-plugin-update-notifier@^1.5.85:
+  version "1.5.85"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.85.tgz#2aeac9cc77857a23d5c952f5ddc1ad12715d32ed"
+  integrity sha512-eWkNYXPeM6hzuJyJUpt2IFRTmSH90+nFtC20ucZLTce5vGwexpXfPSyc9ZMH3s4L7OcxeEPMlKRybUxoLpTxEg==
   dependencies:
     "@jayree/changelog" "^1.2.1"
-    "@oclif/core" "^4.0.11"
+    "@oclif/core" "^4.0.12"
     "@salesforce/kit" "^3.1.6"
     boxen "^7.1.1"
     chalk "^5.3.0"
     debug "^4.3.4"
     fs-extra "^11.2.0"
     got "^14.4.1"
-    package-json "^10.0.0"
-    semver "^7.6.2"
+    package-json "^10.0.1"
+    semver "^7.6.3"
     semver-diff "^4.0.0"
     tslib "^2.6.3"
 
@@ -6451,10 +6451,10 @@ package-hash@^4.0.0:
     lodash.flattendeep "^4.4.0"
     release-zalgo "^1.0.0"
 
-package-json@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/package-json/-/package-json-10.0.0.tgz#238786d9deabb946fe514b13290f19e2d5347fe1"
-  integrity sha512-w34pqp733w35nElGG6eH1OnDnHEWud4uxruQ2nKzY/Uy0uOJmWFdjDcAC+xAD4goVuBZStwaAEBS21BANv83HQ==
+package-json@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/package-json/-/package-json-10.0.1.tgz#e49ee07b8de63b638e7f1b5bb353733e428fe7d7"
+  integrity sha512-ua1L4OgXSBdsu1FPb7F3tYH0F48a6kxvod4pLUlGY9COeJAJQNX/sNH2IiEmsxw7lqYiAwrdHMjz1FctOsyDQg==
   dependencies:
     ky "^1.2.0"
     registry-auth-token "^5.0.2"
@@ -7154,10 +7154,10 @@ semver@^6.0.0, semver@^6.3.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.2:
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.2.tgz#1e3b34759f896e8f14d6134732ce798aeb0c6e13"
-  integrity sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==
+semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.2, semver@^7.6.3:
+  version "7.6.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
+  integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
 
 sentence-case@^3.0.4:
   version "3.0.4"
