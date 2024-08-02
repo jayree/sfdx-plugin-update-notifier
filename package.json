@@ -7,7 +7,7 @@
   "bugs": "https://github.com/jayree/sfdx-plugin-update-notifier/issues",
   "dependencies": {
     "@jayree/changelog": "^1.2.0",
-    "@oclif/core": "^4.0.14",
+    "@oclif/core": "^4.0.17",
     "@salesforce/kit": "^3.1.6",
     "debug": "^4.3.4",
     "oclif-plugin-update-notifier": "^1.5.87",
