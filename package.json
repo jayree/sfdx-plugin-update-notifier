@@ -10,7 +10,7 @@
     "@oclif/core": "^4.0.14",
     "@salesforce/kit": "^3.2.1",
     "debug": "^4.3.4",
-    "oclif-plugin-update-notifier": "^1.5.92",
+    "oclif-plugin-update-notifier": "^1.5.93",
     "tslib": "^2.6.3"
   },
   "devDependencies": {
