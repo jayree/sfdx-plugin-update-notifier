@@ -1642,10 +1642,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oclif/core@^4", "@oclif/core@^4.0.20", "@oclif/core@^4.0.22":
-  version "4.0.22"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.0.22.tgz#acb233c0c18ff4f365caca15e29e2807a4325709"
-  integrity sha512-aXM2O4g7f+kPNzhhOfqGOVRVYDxTVrH7Y720MuH0Twq5WHMxI4XwntnyBaRscoCPG6FWhItZLtiZxsvaUdupGg==
+"@oclif/core@^4", "@oclif/core@^4.0.20", "@oclif/core@^4.0.23":
+  version "4.0.23"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.0.23.tgz#8772cfd57f850e2e17b703166b44da092a7986a0"
+  integrity sha512-wDl/eis7XDIM1pQWUGKLB+EQKJO9UrjaQ5NcwIbz7GW0gWuJfo9QAK75csgNUN/9Pbok9Ryt+sJgogS4RCIp5g==
   dependencies:
     ansi-escapes "^4.3.2"
     ansis "^3.3.2"
@@ -1659,6 +1659,7 @@
     is-wsl "^2.2.0"
     lilconfig "^3.1.2"
     minimatch "^9.0.5"
+    semver "^7.6.3"
     string-width "^4.2.3"
     supports-color "^8"
     widest-line "^3.1.0"
@@ -6569,13 +6570,13 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.95:
-  version "1.5.95"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.95.tgz#14c5553adc5aa2fe9cdf99f9877688f00b3628ca"
-  integrity sha512-/e+tcVT1cJUxjZfbRbGm4Eh+fx/SAYD8I33w9uUeRzLx/isXInYJGmJ04Kzhoeg92nsHQmshR+xSAwhUarCONg==
+oclif-plugin-update-notifier@^1.5.96:
+  version "1.5.96"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.96.tgz#f468a08ffbc9df3beb50312f77591e50a47cf2de"
+  integrity sha512-WXb02+HxhJp4w8hjecjGZnLiacchd7b8qirgIP9IxYMpci6bZytGz+MoyT8vOTkbxBScsmlhjvvEdXySmG5smg==
   dependencies:
     "@jayree/changelog" "^1.2.4"
-    "@oclif/core" "^4.0.22"
+    "@oclif/core" "^4.0.23"
     "@salesforce/kit" "^3.2.3"
     boxen "^8.0.1"
     chalk "^5.3.0"
