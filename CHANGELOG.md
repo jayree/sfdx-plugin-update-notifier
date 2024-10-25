@@ -1,3 +1,10 @@
+## [1.2.99](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.98...v1.2.99) (2024-10-25)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 4.0.29 to 4.0.30 ([#848](https://github.com/jayree/sfdx-plugin-update-notifier/issues/848)) ([13183b6](https://github.com/jayree/sfdx-plugin-update-notifier/commit/13183b624125d2246f569d4a2ca8bc60611519ea))
+
 ## [1.2.98](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.97...v1.2.98) (2024-10-18)
 
 
