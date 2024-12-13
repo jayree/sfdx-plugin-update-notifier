@@ -9,7 +9,7 @@
     "@jayree/changelog": "^1.2.2",
     "@oclif/core": "^4.0.34",
     "@salesforce/kit": "^3.2.3",
-    "debug": "^4.3.7",
+    "debug": "^4.4.0",
     "oclif-plugin-update-notifier": "^1.5.104",
     "tslib": "^2.8.1"
   },
