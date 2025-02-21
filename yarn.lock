@@ -1295,14 +1295,14 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.2.5.tgz#915dff5e71b4964ea677ed570865c929a5c5f49e"
-  integrity sha512-jaMecAX/d3Pn7Likis+lGZ3c+uekqpoyDhEhHDnN5zd4tY1vkndFHbNoIdTRNGvtvNMUfvIZi2VeFO8r0C4Qcw==
+"@jayree/changelog@^1.2.5", "@jayree/changelog@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.2.6.tgz#99f3e1beeebb70c9664b185c09f0e22bb5a3763d"
+  integrity sha512-Ccy+R7krQ1WB/dXw0KVcsZubpElSk7Ea47Na88vxJRPLiw/6Hb3w4wh0zs9zh90pCRHZq0UnP25hhovclKoWkg==
   dependencies:
     debug "^4.4.0"
     fs-extra "^11.3.0"
-    marked "^12.0.2"
+    marked "^15.0.7"
     marked-terminal "^7.3.0"
     semver "^7.7.1"
     semver-compare "^1.0.0"
@@ -1384,13 +1384,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oclif/core@^4", "@oclif/core@^4.2.3", "@oclif/core@^4.2.6":
-  version "4.2.6"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.2.6.tgz#f2f1696be03a815a4c391504312f90fce29fbb4e"
-  integrity sha512-agk1Tlm7qMemWx+qq5aNgkYwX2JCkoVP4M0ruFveJrarmdUPbKZTMW1j/eg8lNKZh1sp68ytZyKhYXYEfRPcww==
+"@oclif/core@^4", "@oclif/core@^4.2.3", "@oclif/core@^4.2.6", "@oclif/core@^4.2.7":
+  version "4.2.7"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.2.7.tgz#ca9d79454bc356218c8a5563728e831a972b751e"
+  integrity sha512-49wtIlSEw9UyxdSMPjJ2Ookj5e056Qbqr6A+uN7Ea8XCK6b8Q03KciTEpX5t0rfNggvewJc9e3SHY6uWZIkXVw==
   dependencies:
     ansi-escapes "^4.3.2"
-    ansis "^3.10.0"
+    ansis "^3.14.0"
     clean-stack "^3.0.1"
     cli-spinners "^2.9.2"
     debug "^4.4.0"
@@ -2579,6 +2579,11 @@ ansis@^3.10.0, ansis@^3.5.2:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/ansis/-/ansis-3.10.0.tgz#6886afb0f729b1fa865df6b710b97a9915b7d0d4"
   integrity sha512-hxDKLYT7hy3Y4sF3HxI926A3urzPxi73mZBB629m9bCVF+NyKNxbwCqqm+C/YrGPtxLwnl6d8/ZASCsz6SyvJA==
+
+ansis@^3.14.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/ansis/-/ansis-3.15.0.tgz#8c2c5546685ceba0944dad9485903851b6e704f6"
+  integrity sha512-zIcWDJ+Kwqxfdnogx66Gxzr0kVmCcRAdat9nlY2IHsshqTN4fBH6tMeRMPA/2w0rpBayIJvjQAaa2/4RDrNqwg==
 
 any-promise@^1.0.0:
   version "1.3.0"
@@ -5623,15 +5628,15 @@ marked-terminal@^7.3.0:
     node-emoji "^2.2.0"
     supports-hyperlinks "^3.1.0"
 
-marked@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-12.0.2.tgz#b31578fe608b599944c69807b00f18edab84647e"
-  integrity sha512-qXUm7e/YKFoqFPYPa3Ukg9xlI5cyAtGmyEIzMfW//m6kXwCy2Ps9DYf5ioijFKQ8qyuscrHoY04iJGctu2Kg0Q==
-
 marked@^13.0.0:
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/marked/-/marked-13.0.2.tgz#d5d05bd2683a85cb9cc6afbe5240e3a8bffcb92a"
   integrity sha512-J6CPjP8pS5sgrRqxVRvkCIkZ6MFdRIjDkwUwgJ9nL2fbmM6qGQeB2C16hi8Cc9BOzj6xXzy0jyi0iPIfnMHYzA==
+
+marked@^15.0.7:
+  version "15.0.7"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.7.tgz#f67d7e34d202ce087e6b879107b5efb04e743314"
+  integrity sha512-dgLIeKGLx5FwziAnsk4ONoGwHwGPJzselimvlVskE9XLN4Orv9u2VA3GWw/lYUqjfA0rUT/6fqKwfZJapP9BEg==
 
 mdurl@^2.0.0:
   version "2.0.0"
@@ -6027,13 +6032,13 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.113:
-  version "1.5.113"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.113.tgz#37942e52c44585835da66191e86ece8c37cf1e62"
-  integrity sha512-q4JAryoLaJ4AFeIKiyqABSqS7LXJoy39a4Sq/qse/5XX4uj4mEGFIJctXHZzH9qw5TCPrcLfbdEp/S6W8qMU6g==
+oclif-plugin-update-notifier@^1.5.114:
+  version "1.5.114"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.114.tgz#40eb8b229765bffdc36508b8ff3454dce9f10334"
+  integrity sha512-aHOEBv5bKWLFiR7S2g1H0D8jkNa5RlYOlu2HSsrtXYU1GatKtji0ubk5GgAxDiBhgzy631GcXJDsbsetniWdHQ==
   dependencies:
-    "@jayree/changelog" "^1.2.5"
-    "@oclif/core" "^4.2.6"
+    "@jayree/changelog" "^1.2.6"
+    "@oclif/core" "^4.2.7"
     "@salesforce/kit" "^3.2.3"
     boxen "^8.0.1"
     chalk "^5.4.1"
