@@ -1537,16 +1537,16 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.2.8", "@jayree/changelog@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.2.9.tgz#463857cb3b8d187a0e3b05c0c6628eeed7f3bab5"
-  integrity sha512-XmRXMDY/Dga1DMmpNNcOkyAqVjpR6d92X8hfnC1Vw3nY12IJ2rY/Zf1AR1U9IUURVwpGT3OR+9odXe3N+TnOyQ==
+"@jayree/changelog@^1.2.10", "@jayree/changelog@^1.2.8":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.2.10.tgz#f895db7ac25e16bfc68e95507783058e8367a3a1"
+  integrity sha512-gzGP1+SMvotm6riltCuvilkgbhZBjR59c/ctpwhLAxFXRr236lk1a/3swQea1WMWS/lw8oBr4+HO91ojEUd4lg==
   dependencies:
-    debug "^4.4.0"
+    debug "^4.4.1"
     fs-extra "^11.3.0"
-    marked "^15.0.11"
+    marked "^15.0.12"
     marked-terminal "^7.3.0"
-    semver "^7.7.1"
+    semver "^7.7.2"
     semver-compare "^1.0.0"
 
 "@jridgewell/gen-mapping@^0.3.5":
@@ -5914,10 +5914,10 @@ marked@^13.0.0:
   resolved "https://registry.yarnpkg.com/marked/-/marked-13.0.2.tgz#d5d05bd2683a85cb9cc6afbe5240e3a8bffcb92a"
   integrity sha512-J6CPjP8pS5sgrRqxVRvkCIkZ6MFdRIjDkwUwgJ9nL2fbmM6qGQeB2C16hi8Cc9BOzj6xXzy0jyi0iPIfnMHYzA==
 
-marked@^15.0.11:
-  version "15.0.11"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.11.tgz#08a8d12c285e16259e44287b89ce0d871c9d55e8"
-  integrity sha512-1BEXAU2euRCG3xwgLVT1y0xbJEld1XOrmRJpUwRCcy7rxhSCwMrmEu9LXoPhHSCJG41V7YcQ2mjKRr5BA3ITIA==
+marked@^15.0.12:
+  version "15.0.12"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.12.tgz#30722c7346e12d0a2d0207ab9b0c4f0102d86c4e"
+  integrity sha512-8dD6FusOQSrpv9Z1rdNMdlSgQOIP880DHqnohobOmYLElGEqAL/JvxvuxZO16r4HtjTlfPRDC1hbvxC9dPN2nA==
 
 mdurl@^2.0.0:
   version "2.0.0"
@@ -6321,12 +6321,12 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.121:
-  version "1.5.121"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.121.tgz#8169b304fc68f43da46c39093427c4a541e4bbd8"
-  integrity sha512-oTORx9agRJ/6QMtgOuRq8xkQKPQq5dVuCu9UXa9rO/mhWCLBdAAQ3gmE2Ih6k/JkGKg0umVY10zCFCk1iCn+JA==
+oclif-plugin-update-notifier@^1.5.122:
+  version "1.5.122"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.122.tgz#3c84f2cd5e3c2f5524b751027934608170582f47"
+  integrity sha512-NnjfX6RDlcquxTzGdtaFbh5RY70Hsn8Ec68sSn6nubXWZiCLP0ttrJWZ4qDdHfne7K2ClrCq0KkuihTkRT5kgw==
   dependencies:
-    "@jayree/changelog" "^1.2.9"
+    "@jayree/changelog" "^1.2.10"
     "@oclif/core" "^4.3.0"
     "@salesforce/kit" "^3.2.3"
     boxen "^8.0.1"
