@@ -1626,10 +1626,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oclif/core@^4", "@oclif/core@^4.2.10", "@oclif/core@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.3.0.tgz#9a2951f05f81a4c7ae5ffcc00b2d720cca0898e6"
-  integrity sha512-lIzHY+JMP6evrS5E/sGijNnwrCoNtGy8703jWXcMuPOYKiFhWoAqnIm1BGgoRgmxczkbSfRsHUL/lwsSgh74Lw==
+"@oclif/core@^4", "@oclif/core@^4.2.10", "@oclif/core@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.3.1.tgz#906c18336d5eff81faae7de3bc218bcba470db91"
+  integrity sha512-+QpJSficjZWu65YSRJIwe50xh0C7WVD6BkQyk0HmGIlx2/rvex8LDwbZHCQcvuJDOCVQeX/INh8IImuKn4d1UA==
   dependencies:
     ansi-escapes "^4.3.2"
     ansis "^3.17.0"
@@ -1638,7 +1638,6 @@
     debug "^4.4.0"
     ejs "^3.1.10"
     get-package-type "^0.1.0"
-    globby "^11.1.0"
     indent-string "^4.0.0"
     is-wsl "^2.2.0"
     lilconfig "^3.1.3"
@@ -1646,6 +1645,7 @@
     semver "^7.6.3"
     string-width "^4.2.3"
     supports-color "^8"
+    tinyglobby "^0.2.13"
     widest-line "^3.1.0"
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
@@ -4388,6 +4388,11 @@ fdir@^6.4.2:
   resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.4.2.tgz#ddaa7ce1831b161bc3657bb99cb36e1622702689"
   integrity sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==
 
+fdir@^6.4.4:
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.4.5.tgz#328e280f3a23699362f95f2e82acf978a0c0cb49"
+  integrity sha512-4BG7puHpVsIYxZUbiUE3RqGloLaSSwzYie5jvasC4LWuBWzZawynvYouhjbQKw2JuIGYdm0DzIxl8iVidKlUEw==
+
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-6.0.1.tgz#211b2dd9659cb0394b073e7323ac3c933d522027"
@@ -6321,13 +6326,13 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.122:
-  version "1.5.122"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.122.tgz#3c84f2cd5e3c2f5524b751027934608170582f47"
-  integrity sha512-NnjfX6RDlcquxTzGdtaFbh5RY70Hsn8Ec68sSn6nubXWZiCLP0ttrJWZ4qDdHfne7K2ClrCq0KkuihTkRT5kgw==
+oclif-plugin-update-notifier@^1.5.123:
+  version "1.5.123"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.123.tgz#3484af2e5589229d8c7183d5876ef66aa9553ef6"
+  integrity sha512-3xrl2rliH/Ledz0sVID4lR1sdTnZ8zEIt8WssNoiVH7ewBexXpPfmqw2slPfh+IRwkTDkv51koYaY6pk449wNw==
   dependencies:
     "@jayree/changelog" "^1.2.10"
-    "@oclif/core" "^4.3.0"
+    "@oclif/core" "^4.3.1"
     "@salesforce/kit" "^3.2.3"
     boxen "^8.0.1"
     chalk "^5.4.1"
@@ -7689,6 +7694,14 @@ tinyexec@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/tinyexec/-/tinyexec-0.3.2.tgz#941794e657a85e496577995c6eef66f53f42b3d2"
   integrity sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==
+
+tinyglobby@^0.2.13:
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.14.tgz#5280b0cf3f972b050e74ae88406c0a6a58f4079d"
+  integrity sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==
+  dependencies:
+    fdir "^6.4.4"
+    picomatch "^4.0.2"
 
 tinyglobby@^0.2.9:
   version "0.2.10"
