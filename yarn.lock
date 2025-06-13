@@ -1626,7 +1626,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oclif/core@^4", "@oclif/core@^4.2.10", "@oclif/core@^4.3.1", "@oclif/core@^4.3.3":
+"@oclif/core@^4", "@oclif/core@^4.2.10", "@oclif/core@^4.3.3":
   version "4.3.3"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.3.3.tgz#a527536b62ef202c58d2b69ce9cd1e64eb3a94b1"
   integrity sha512-A0mk4nlVE+r34fl91OdglXVPwhhfzM59IhSxnOigqMkwxFgT8z3i2WlUgzmazzvzSccs2KM4N2HkTS3NEvW96g==
@@ -6321,13 +6321,13 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.123:
-  version "1.5.123"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.123.tgz#3484af2e5589229d8c7183d5876ef66aa9553ef6"
-  integrity sha512-3xrl2rliH/Ledz0sVID4lR1sdTnZ8zEIt8WssNoiVH7ewBexXpPfmqw2slPfh+IRwkTDkv51koYaY6pk449wNw==
+oclif-plugin-update-notifier@^1.5.124:
+  version "1.5.124"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.124.tgz#3bbaa4508afff7d9859e52d746cc74a43e295d28"
+  integrity sha512-amxyUtKaVl7r2EbOYxSLfOv78gwMk8GnxC5UvcdYa+dgzEdOaxdyYuwp0DLm6HM4Bfl9DislCDwV3iNKmTnv6g==
   dependencies:
     "@jayree/changelog" "^1.2.10"
-    "@oclif/core" "^4.3.1"
+    "@oclif/core" "^4.3.3"
     "@salesforce/kit" "^3.2.3"
     boxen "^8.0.1"
     chalk "^5.4.1"
