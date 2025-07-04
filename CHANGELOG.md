@@ -1,3 +1,12 @@
+## [1.2.128](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.127...v1.2.128) (2025-07-04)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.10 to 1.2.11 ([#1017](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1017)) ([03a250c](https://github.com/jayree/sfdx-plugin-update-notifier/commit/03a250cc0d10798a307b80f66018da92f8fbff4f))
+* **deps:** bump @oclif/core from 4.4.0 to 4.4.1 ([#1019](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1019)) ([63ca660](https://github.com/jayree/sfdx-plugin-update-notifier/commit/63ca6604be99626ebee0f03ec1415663c61e34db))
+* **deps:** bump oclif-plugin-update-notifier from 1.5.125 to 1.5.126 ([#1018](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1018)) ([3e49b39](https://github.com/jayree/sfdx-plugin-update-notifier/commit/3e49b39da41316fdb8e76eb56f28dbe5a785b1ff))
+
 ## [1.2.127](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.126...v1.2.127) (2025-06-20)
 
 
