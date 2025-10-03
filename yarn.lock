@@ -6955,10 +6955,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.137:
-  version "1.5.137"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.137.tgz#357178c00cd6e367d9b22755c6c2f9b31440c07a"
-  integrity sha512-QaC64e5v86uYQpoTlvF6yMz/EAgwGCbKQ1QocjnzTgyEMpen7tyicLkZzxTK9E9EfZjll8O5+zmg8Fc3qUopUQ==
+oclif-plugin-update-notifier@^1.5.138:
+  version "1.5.138"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.138.tgz#5dc2aa6a0cf588c9506a79eafc7f03fd94c428b5"
+  integrity sha512-l1bbp0BcehWVI8GBCq0lnw6HMIVpE/Ae8fQl0KsIqXZop1XE5tYUxsDrIqarEy3OtZx68NarHeVfJyvldlLtnw==
   dependencies:
     "@jayree/changelog" "^1.2.18"
     "@oclif/core" "^4.5.4"
@@ -6970,7 +6970,6 @@ oclif-plugin-update-notifier@^1.5.137:
     got "^14.4.9"
     package-json "^10.0.1"
     semver "^7.7.2"
-    semver-diff "^4.0.0"
     tslib "^2.8.1"
 
 oclif@^4.22.27:
@@ -7778,13 +7777,6 @@ semver-compare@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
   integrity sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==
-
-semver-diff@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/semver-diff/-/semver-diff-4.0.0.tgz#3afcf5ed6d62259f5c72d0d5d50dffbdc9680df5"
-  integrity sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==
-  dependencies:
-    semver "^7.3.5"
 
 "semver@2 || 3 || 4 || 5":
   version "5.7.2"
