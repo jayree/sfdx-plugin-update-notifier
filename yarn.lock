@@ -1779,10 +1779,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oclif/core@^4", "@oclif/core@^4.5.3", "@oclif/core@^4.5.5", "@oclif/core@^4.5.6", "@oclif/core@^4.7.2":
-  version "4.7.2"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.7.2.tgz#9ebf36b4693500685956f3405c55526d191aa5ef"
-  integrity sha512-AmZnhEnyD7bFxmzEKRaOEr0kzonmwIip72eWZPWB5+7D9ayHa/QFX08zhaQT9eOo0//ed64v5p5QZIbYCbQaJQ==
+"@oclif/core@^4", "@oclif/core@^4.5.3", "@oclif/core@^4.5.5", "@oclif/core@^4.5.6", "@oclif/core@^4.8.0":
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.8.0.tgz#bde8fad00019c8c0a8e27787b4b42c4670842785"
+  integrity sha512-jteNUQKgJHLHFbbz806aGZqf+RJJ7t4gwF4MYa8fCwCxQ8/klJNWc0MvaJiBebk7Mc+J39mdlsB4XraaCKznFw==
   dependencies:
     ansi-escapes "^4.3.2"
     ansis "^3.17.0"
@@ -5360,10 +5360,10 @@ got@^13:
     p-cancelable "^3.0.0"
     responselike "^3.0.0"
 
-got@^14.6.0:
-  version "14.6.0"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.6.0.tgz#d6a7ec7324f8a1ee841dcc6075796c16c29296f2"
-  integrity sha512-K30JHMsHcwhy+JYet3IxRFw+L9rb77y5LE3OkoAD4qzMR9/g30bWYBfkHYVJL2BBPgfU4lJsRwhy4HUkLPQc3g==
+got@^14.6.1:
+  version "14.6.1"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.6.1.tgz#8a67242ab03fc9d2898d8a07c8ffb02ec423b8f6"
+  integrity sha512-56lZOw904LHKr6KdKN0Zbgz9Lw6cpEAAqZcS+0iY4D27caHoLiFT0EGCbrX9ZKYvt+I2lGl3a8eeDNSbmhyjkQ==
   dependencies:
     "@sindresorhus/is" "^7.0.1"
     "@szmarczak/http-timer" "^5.0.1"
@@ -6921,19 +6921,19 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.141:
-  version "1.5.141"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.141.tgz#c10ca5384a50ba880cbc328482b66419c5601a76"
-  integrity sha512-9zr7511zNZqAEkH+THMgvkgBYLc75QANy8cWib7//0vsLz0gYQ+GBwNKQBOBrQIfsghNm3+nXUsSoyOWfWgExQ==
+oclif-plugin-update-notifier@^1.5.142:
+  version "1.5.142"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.142.tgz#332385b94d2f5f119be44903df5d19bfc49a0670"
+  integrity sha512-+pqAHrFoqxINS73iR0v7c3ZR/zagHgrcuSjI9r8SDSeWf+ptJAD9vyLY8W/esiofJEyhkXiMClz3S74eJiA7nQ==
   dependencies:
     "@jayree/changelog" "^1.2.18"
-    "@oclif/core" "^4.7.2"
+    "@oclif/core" "^4.8.0"
     "@salesforce/kit" "^3.2.4"
     boxen "^8.0.1"
     chalk "^5.6.2"
     debug "^4.4.3"
     fs-extra "^11.3.2"
-    got "^14.6.0"
+    got "^14.6.1"
     package-json "^10.0.1"
     semver "^7.7.3"
     tslib "^2.8.1"
