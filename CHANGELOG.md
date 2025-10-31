@@ -1,3 +1,10 @@
+## [1.2.144](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.143...v1.2.144) (2025-10-31)
+
+
+### Bug Fixes
+
+* **deps:** bump oclif-plugin-update-notifier from 1.5.141 to 1.5.142 ([#1095](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1095)) ([905e6b6](https://github.com/jayree/sfdx-plugin-update-notifier/commit/905e6b6d5b38c3ce0fa9fcef6d576e651a122f51))
+
 ## [1.2.143](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.142...v1.2.143) (2025-10-24)
 
 
