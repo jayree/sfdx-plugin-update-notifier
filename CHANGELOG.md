@@ -1,3 +1,10 @@
+## [1.2.145](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.144...v1.2.145) (2025-11-07)
+
+
+### Bug Fixes
+
+* **deps:** bump @jayree/changelog from 1.2.18 to 1.2.19 ([#1096](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1096)) ([48d60cd](https://github.com/jayree/sfdx-plugin-update-notifier/commit/48d60cd4a154d436d31fcad5c26a81f76b789ca2))
+
 ## [1.2.144](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.143...v1.2.144) (2025-10-31)
 
 
