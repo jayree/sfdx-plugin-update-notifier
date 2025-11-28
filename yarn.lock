@@ -4956,10 +4956,10 @@ got@^13:
     p-cancelable "^3.0.0"
     responselike "^3.0.0"
 
-got@^14.6.4:
-  version "14.6.4"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.6.4.tgz#fe86680cc2d8e9df7162ebcd39c277c4ff6cf2cb"
-  integrity sha512-DjsLab39NUMf5iYlK9asVCkHMhaA2hEhrlmf+qXRhjEivuuBHWYbjmty9DA3OORUwZgENTB+6vSmY2ZW8gFHVw==
+got@^14.6.5:
+  version "14.6.5"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.6.5.tgz#9a8d2b46abf29c9f3bf5179bda94fd8509f97220"
+  integrity sha512-Su87c0NNeg97de1sO02gy9I8EmE7DCJ1gzcFLcgGpYeq2PnLg4xz73MWrp6HjqbSsjb6Glf4UBDW6JNyZA6uSg==
   dependencies:
     "@sindresorhus/is" "^7.0.1"
     byte-counter "^0.1.0"
@@ -6517,10 +6517,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.145:
-  version "1.5.145"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.145.tgz#24cbf9ff3a2b5f8b907b62e95c975ecb3c4f986f"
-  integrity sha512-Pwg/wKbYO2nw9nPDmIixKf9cZ9bhkJB59iF0fvZNoFSX1UrNsLL1PMZfLfB4ZRmWoTHGtu25lHLY0L7Z2ayAMg==
+oclif-plugin-update-notifier@^1.5.146:
+  version "1.5.146"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.146.tgz#1f9a6d4e176b2cc7160a8fd55250cd1a0b874fb4"
+  integrity sha512-69lPM45cui3LxVa41R5luB8yBcYisdyjOvljR8ahbOC60yHOL8DP2YUH6XhpMLQwvwFuGS17atAmN0xNfF1+eg==
   dependencies:
     "@jayree/changelog" "^1.2.20"
     "@oclif/core" "^4.8.0"
@@ -6529,7 +6529,7 @@ oclif-plugin-update-notifier@^1.5.145:
     chalk "^5.6.2"
     debug "^4.4.3"
     fs-extra "^11.3.2"
-    got "^14.6.4"
+    got "^14.6.5"
     package-json "^10.0.1"
     semver "^7.7.3"
     tslib "^2.8.1"
