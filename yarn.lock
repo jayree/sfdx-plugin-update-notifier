@@ -4413,10 +4413,10 @@ fs-extra@^10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^11.0.0, fs-extra@^11.3.2:
-  version "11.3.2"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.2.tgz#c838aeddc6f4a8c74dd15f85e11fe5511bfe02a4"
-  integrity sha512-Xr9F6z6up6Ws+NjzMCZc6WXg2YFRlrLP9NQDO3VQrWrfiojdhS56TzueT88ze0uBdCTwEIhQ3ptnmKeWGFAe0A==
+fs-extra@^11.0.0, fs-extra@^11.3.2, fs-extra@^11.3.3:
+  version "11.3.3"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.3.tgz#a27da23b72524e81ac6c3815cc0179b8c74c59ee"
+  integrity sha512-VWSRii4t0AFm6ixFFmLLx1t7wS1gh+ckoa84aOeapGum0h+EZd1EhEumSB+ZdDLnEPuucsVB9oB7cxJHap6Afg==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -6285,10 +6285,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.148:
-  version "1.5.148"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.148.tgz#9881ca12eb8222f0632180ab3575f7c43c9a0699"
-  integrity sha512-DBHxg0d45INXVB1JWnASBOVWSnCDSkMCUvJa9z3scArJmG2ufGmUkfV82nKf8kqm0zkiRJGlfFXPcj2Qk3aVnQ==
+oclif-plugin-update-notifier@^1.5.149:
+  version "1.5.149"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.149.tgz#f7d2fc3f5f1d68ffaa861bd0ea07e78460266388"
+  integrity sha512-WuP9HrDEy9o3vI5kJlw5rxERi7DJKv3KCBRnoOZP0vcQ8cZznnBBTtK3yq1uk5uI+ge2lH40QprDNha4QVu1/A==
   dependencies:
     "@jayree/changelog" "^1.2.22"
     "@oclif/core" "^4.8.0"
@@ -6296,7 +6296,7 @@ oclif-plugin-update-notifier@^1.5.148:
     boxen "^8.0.1"
     chalk "^5.6.2"
     debug "^4.4.3"
-    fs-extra "^11.3.2"
+    fs-extra "^11.3.3"
     got "^14.6.5"
     package-json "^10.0.1"
     semver "^7.7.3"
