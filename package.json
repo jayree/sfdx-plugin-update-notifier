@@ -6,7 +6,7 @@
   "type": "module",
   "bugs": "https://github.com/jayree/sfdx-plugin-update-notifier/issues",
   "dependencies": {
-    "@jayree/changelog": "^1.2.20",
+    "@jayree/changelog": "^1.2.23",
     "@oclif/core": "^4.5.6",
     "@salesforce/kit": "^3.2.4",
     "debug": "^4.4.0",
