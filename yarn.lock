@@ -1340,7 +1340,7 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.2.22", "@jayree/changelog@^1.2.23":
+"@jayree/changelog@^1.2.23":
   version "1.2.23"
   resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.2.23.tgz#0b49d9ca14868310448d9ae125e689ff53afcc4a"
   integrity sha512-aOAQsZ9PFn8UHg24TTh8jDhA5LxOy1wbHl02GRgEd9Xl6I0IJMPWt6mZf5dzE1OsCT23K/B49Oa1V4SM+dm9iA==
@@ -4733,10 +4733,10 @@ got@^13:
     p-cancelable "^3.0.0"
     responselike "^3.0.0"
 
-got@^14.6.5:
-  version "14.6.5"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.6.5.tgz#9a8d2b46abf29c9f3bf5179bda94fd8509f97220"
-  integrity sha512-Su87c0NNeg97de1sO02gy9I8EmE7DCJ1gzcFLcgGpYeq2PnLg4xz73MWrp6HjqbSsjb6Glf4UBDW6JNyZA6uSg==
+got@^14.6.6:
+  version "14.6.6"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.6.6.tgz#5adf7f576f89de8e291fd782e8b277f9bcc8e6c0"
+  integrity sha512-QLV1qeYSo5l13mQzWgP/y0LbMr5Plr5fJilgAIwgnwseproEbtNym8xpLsDzeZ6MWXgNE6kdWGBjdh3zT/Qerg==
   dependencies:
     "@sindresorhus/is" "^7.0.1"
     byte-counter "^0.1.0"
@@ -6294,19 +6294,19 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.149:
-  version "1.5.149"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.149.tgz#f7d2fc3f5f1d68ffaa861bd0ea07e78460266388"
-  integrity sha512-WuP9HrDEy9o3vI5kJlw5rxERi7DJKv3KCBRnoOZP0vcQ8cZznnBBTtK3yq1uk5uI+ge2lH40QprDNha4QVu1/A==
+oclif-plugin-update-notifier@^1.5.150:
+  version "1.5.150"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.150.tgz#4d573609b7634f91528bc04870946cce77332834"
+  integrity sha512-4CxlkPmlQTgriB1ri7L3Og0jeLHw3BUeSu8S4HylurGz7van3IuFkagEtVHogDmHFULhjezofLINzmx/fM4ATw==
   dependencies:
-    "@jayree/changelog" "^1.2.22"
+    "@jayree/changelog" "^1.2.23"
     "@oclif/core" "^4.8.0"
     "@salesforce/kit" "^3.2.4"
     boxen "^8.0.1"
     chalk "^5.6.2"
     debug "^4.4.3"
     fs-extra "^11.3.3"
-    got "^14.6.5"
+    got "^14.6.6"
     package-json "^10.0.1"
     semver "^7.7.3"
     tslib "^2.8.1"
