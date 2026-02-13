@@ -6308,10 +6308,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.150:
-  version "1.5.150"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.150.tgz#4d573609b7634f91528bc04870946cce77332834"
-  integrity sha512-4CxlkPmlQTgriB1ri7L3Og0jeLHw3BUeSu8S4HylurGz7van3IuFkagEtVHogDmHFULhjezofLINzmx/fM4ATw==
+oclif-plugin-update-notifier@^1.5.151:
+  version "1.5.151"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.151.tgz#9b9cad87d626c04cfd9090a376e10525af51b028"
+  integrity sha512-KuN2IRElvE2bOTuigELzgyTGA+2UrdbAFhdaz5Lf8lSawdCeFTXh1MEhfRL4xSLuAsby5etwcQJXUeCi1Vw/1A==
   dependencies:
     "@jayree/changelog" "^1.2.23"
     "@oclif/core" "^4.8.0"
@@ -6322,7 +6322,7 @@ oclif-plugin-update-notifier@^1.5.150:
     fs-extra "^11.3.3"
     got "^14.6.6"
     package-json "^10.0.1"
-    semver "^7.7.3"
+    semver "^7.7.4"
     tslib "^2.8.1"
 
 oclif@^4.22.77:
