@@ -1498,7 +1498,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^4", "@oclif/core@^4.8.0", "@oclif/core@^4.8.3", "@oclif/core@^4.9.0":
+"@oclif/core@^4", "@oclif/core@^4.8.0", "@oclif/core@^4.9.0":
   version "4.9.0"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.9.0.tgz#aa9fbfc47ed4b0c7fdb9ae50b39a5b047fbca83c"
   integrity sha512-k/ntRgDcUprTT+aaNoF+whk3cY3f9fRD2lkF6ul7JeCUg2MaMXVXZXfbRhJCfsiX51X8/5Pqo0LGdO9SLYXNHg==
@@ -6619,13 +6619,13 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.154:
-  version "1.5.154"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.154.tgz#d3cd5cb0f1e3a6c9b2838e073c5abe9386c99eb2"
-  integrity sha512-7hfA5qzW1tUBwztgzHZidBMuBJnDRDyOlul2sHF1dROZtarvDqs2O7uUgJIVS+3BR1KFUpoM9rxY2rVKEYyGgQ==
+oclif-plugin-update-notifier@^1.5.155:
+  version "1.5.155"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.155.tgz#da293c150fd2df292cbd130f265f879d25937eed"
+  integrity sha512-Idt3sIRvFU/AdssNqPfTdWhhQnmpguw5d2bKKNwWeYs3B7FfhhwaaUuSGyhFh30onaCoRtnQGz88nVv8c1JQ/g==
   dependencies:
     "@jayree/changelog" "^1.2.26"
-    "@oclif/core" "^4.8.3"
+    "@oclif/core" "^4.9.0"
     "@salesforce/kit" "^3.2.4"
     boxen "^8.0.1"
     chalk "^5.6.2"
