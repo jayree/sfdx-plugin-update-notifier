@@ -1459,7 +1459,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^4", "@oclif/core@^4.10.0", "@oclif/core@^4.10.3", "@oclif/core@^4.9.0":
+"@oclif/core@^4", "@oclif/core@^4.10.3", "@oclif/core@^4.9.0":
   version "4.10.3"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.10.3.tgz#8b817320a593a003698ed928c17f99a9ff6963fb"
   integrity sha512-0mD8vcrrX5uRsxzvI8tbWmSVGngvZA/Qo6O0ZGvLPAWEauSf5GFniwgirhY0SkszuHwu0S1J1ivj/jHmqtIDuA==
@@ -1642,10 +1642,10 @@
     typescript "^5.5.4"
     wireit "^0.14.12"
 
-"@salesforce/kit@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.2.4.tgz#69fb56974685e41d26ae5db30a7261acdc731bb6"
-  integrity sha512-9buqZ2puIGWqjUFWYNroSeNih4d1s9kdQAzZfutr/Re/JMl6xBct0ATO5LVb1ty5UhdBruJrVaiTg03PqVKU+Q==
+"@salesforce/kit@^3.2.4", "@salesforce/kit@^3.2.6":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-3.2.6.tgz#6a6c13b463b51694a43d61094af67171086ed4f5"
+  integrity sha512-O8S4LWerHa9Zosqh+IoQjgLtpxMOfObRxaRnUdRV4MLtFUi+bQxQiyFvve6eEaBaMP1b1xVDQpvSvQ+PXEDGFQ==
   dependencies:
     "@salesforce/ts-types" "^2.0.12"
 
@@ -6408,14 +6408,14 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.156:
-  version "1.5.156"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.156.tgz#ae0079af256f5677ff1e0cf903bf8b0b33fd25f1"
-  integrity sha512-6zKgbP6jcheKEIdjIXgQUicvLqNnp397FLU4WGoepS0SKk1dQIsjVUV4DjVsA5FVQ9TcD2u9HTANOuK/zVcZSQ==
+oclif-plugin-update-notifier@^1.5.157:
+  version "1.5.157"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.157.tgz#b256fc3b56802fb2823cbee031f615856cdd46dd"
+  integrity sha512-7PAfrnDdwg8vuV03y17EcLLHFvKLRJJhgduQj35Ot4KbC1235h0t2bsVeW2ONdmiafCHIyruL5cxzi/eARagZg==
   dependencies:
     "@jayree/changelog" "^1.2.27"
-    "@oclif/core" "^4.10.0"
-    "@salesforce/kit" "^3.2.4"
+    "@oclif/core" "^4.10.3"
+    "@salesforce/kit" "^3.2.6"
     boxen "^8.0.1"
     chalk "^5.6.2"
     debug "^4.4.3"
