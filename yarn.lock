@@ -1206,7 +1206,7 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.2.35", "@jayree/changelog@^1.2.37":
+"@jayree/changelog@^1.2.37":
   version "1.2.37"
   resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.2.37.tgz#fe2f72dca4f071e4ea08e1188bf3883c5e1c5bd5"
   integrity sha512-Z5IJaB49Wr4axY9HtY5n5+HDB/mlWpBErbVUMp0E2yYra/aW11ysBpMzpk7NJajuBr8Ym/yRNGWDoh3TJ1s55g==
@@ -1343,7 +1343,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oclif/core@^4", "@oclif/core@^4.11.11", "@oclif/core@^4.11.14", "@oclif/core@^4.11.4", "@oclif/core@^4.11.7":
+"@oclif/core@^4", "@oclif/core@^4.11.11", "@oclif/core@^4.11.14", "@oclif/core@^4.11.4":
   version "4.11.14"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.11.14.tgz#45cc28d78a5ea2ac9d1586c57e537771394da44c"
   integrity sha512-cZ5Ktd+rT0PO+o7KBH4vRFTgg+xMLf8F41WK39p8MkXEViZA/Qqe+4lzZT6102zgUxMORET1HtF9t5w8CB3tnQ==
@@ -5786,13 +5786,13 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.168:
-  version "1.5.168"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.168.tgz#83ee1da44a39250f0060c087228327672f3a9d7c"
-  integrity sha512-/ZHo7mApuhCqtxxmTy4jsIjc2qFaY3qNWkQl+TGjiYKKOrTtkmrBEzv61s8Rbb4MdMZEukCQu1ZWxmwxdvz2zw==
+oclif-plugin-update-notifier@^1.5.169:
+  version "1.5.169"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.169.tgz#b2113e8421d18cd4ca9a92a57bd767cc98d41091"
+  integrity sha512-cnHcCeCHBSpwt76fzu14iokKS73vki/JRFicGBK5bSJcSp6iBR9EMgElvZD2faGJaPdq/tEKwNZChf2dupDRMw==
   dependencies:
-    "@jayree/changelog" "^1.2.35"
-    "@oclif/core" "^4.11.7"
+    "@jayree/changelog" "^1.2.37"
+    "@oclif/core" "^4.11.11"
     "@salesforce/kit" "^3.2.6"
     boxen "^8.0.1"
     chalk "^5.6.2"
@@ -5800,7 +5800,7 @@ oclif-plugin-update-notifier@^1.5.168:
     fs-extra "^11.3.5"
     got "^14.6.6"
     package-json "^10.0.1"
-    semver "^7.8.4"
+    semver "^7.8.5"
     tslib "^2.8.1"
 
 oclif@^4.23.24:
@@ -6637,7 +6637,7 @@ semver@^6.0.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.8.1, semver@^7.8.4, semver@^7.8.5:
+semver@^7.3.4, semver@^7.3.5, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.8.1, semver@^7.8.5:
   version "7.8.5"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
   integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
