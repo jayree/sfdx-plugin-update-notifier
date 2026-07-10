@@ -3923,7 +3923,7 @@ fs-extra@^10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^11.0.0, fs-extra@^11.3.5, fs-extra@^11.3.6:
+fs-extra@^11.0.0, fs-extra@^11.3.6:
   version "11.3.6"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.6.tgz#f7cb80e9df550cd1db6f537fa5cdd568d3e70d10"
   integrity sha512-w8ZNZr2mKIc7qeNaQ9AVPT1+iFaI+Avd4xudVOvdDJ8VytREi1Ft5Ih7hd9jjehod8vAM5GMsfQ/TpPf4EyoEA==
@@ -5786,18 +5786,18 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.169:
-  version "1.5.169"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.169.tgz#b2113e8421d18cd4ca9a92a57bd767cc98d41091"
-  integrity sha512-cnHcCeCHBSpwt76fzu14iokKS73vki/JRFicGBK5bSJcSp6iBR9EMgElvZD2faGJaPdq/tEKwNZChf2dupDRMw==
+oclif-plugin-update-notifier@^1.5.170:
+  version "1.5.170"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.170.tgz#18b6711d63ce53957d0364932515fd3b213303c4"
+  integrity sha512-tlSoUeB2fcfv6cZ4fh/Tp4aoqXwogc6hTUT7XIeT4G+dN+tfirjujcbmZQbqwjjTUYHZdnsVMQcCNk9ksL0O2w==
   dependencies:
     "@jayree/changelog" "^1.2.37"
-    "@oclif/core" "^4.11.11"
+    "@oclif/core" "^4.11.14"
     "@salesforce/kit" "^3.2.6"
     boxen "^8.0.1"
     chalk "^5.6.2"
     debug "^4.4.3"
-    fs-extra "^11.3.5"
+    fs-extra "^11.3.6"
     got "^14.6.6"
     package-json "^10.0.1"
     semver "^7.8.5"
