@@ -1,3 +1,10 @@
+## [1.2.178](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.177...v1.2.178) (2026-08-04)
+
+
+### Bug Fixes
+
+* **deps:** bump github/codeql-action from 4.37.3 to 4.37.4 ([#1263](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1263)) ([9fb9891](https://github.com/jayree/sfdx-plugin-update-notifier/commit/9fb9891b46c194dfe86d32d266569a132db26f33))
+
 ## [1.2.177](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.176...v1.2.177) (2026-07-31)
 
 
