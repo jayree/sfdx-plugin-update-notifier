@@ -8,7 +8,7 @@
   "dependencies": {
     "@jayree/changelog": "^1.2.39",
     "@oclif/core": "^4.13.3",
-    "@salesforce/kit": "^3.2.4",
+    "@salesforce/kit": "^4.0.0",
     "debug": "^4.4.0",
     "oclif-plugin-update-notifier": "^1.5.173",
     "tslib": "^2.8.1"
