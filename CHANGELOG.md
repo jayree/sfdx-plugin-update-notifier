@@ -1,3 +1,12 @@
+## [1.2.187](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.186...v1.2.187) (2026-10-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 4.14.0 to 5.1.2 ([#1298](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1298)) ([4edb63d](https://github.com/jayree/sfdx-plugin-update-notifier/commit/4edb63d2a7f69f4579eb9754ed2eed077ceca0a2))
+* **deps:** bump @salesforce/kit from 3.2.6 to 4.0.1 ([#1299](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1299)) ([50bd111](https://github.com/jayree/sfdx-plugin-update-notifier/commit/50bd111dc3a447bd829e314a3b2fec0e725e7026))
+* **deps:** bump actions/setup-node from 6 to 7 ([#1248](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1248)) ([bea7f1f](https://github.com/jayree/sfdx-plugin-update-notifier/commit/bea7f1f90aa7df5e40a4efbfde8e0d7bd75868e7))
+
 ## [1.2.186](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.185...v1.2.186) (2026-10-09)
 
 
