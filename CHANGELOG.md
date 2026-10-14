@@ -1,3 +1,11 @@
+## [1.2.188](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.187...v1.2.188) (2026-10-14)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/checkout from 6 to 7 ([#1223](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1223)) ([4a27d4d](https://github.com/jayree/sfdx-plugin-update-notifier/commit/4a27d4d24c3cb100d23aac8e3a58af83152c30c6))
+* **deps:** bump github/codeql-action from 4.38.2 to 4.38.3 ([#1305](https://github.com/jayree/sfdx-plugin-update-notifier/issues/1305)) ([7b69b86](https://github.com/jayree/sfdx-plugin-update-notifier/commit/7b69b86983ab13b6f128cc765fb167264067e356))
+
 ## [1.2.187](https://github.com/jayree/sfdx-plugin-update-notifier/compare/v1.2.186...v1.2.187) (2026-10-13)
 
 
