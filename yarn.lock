@@ -933,7 +933,7 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@jayree/changelog@^1.2.43", "@jayree/changelog@^1.2.44":
+"@jayree/changelog@^1.2.44":
   version "1.2.44"
   resolved "https://registry.yarnpkg.com/@jayree/changelog/-/changelog-1.2.44.tgz#11247139e1edbc75b14eef66cb4f786f31b3d4d5"
   integrity sha512-YBtgjXIN9R8ndu8HheLa/Xe72RAklMI+yWvpklo8U7g6Sklm79b/zoYYmUShVKE1oWhte2abCUry45sX5zWJXA==
@@ -1260,7 +1260,7 @@
   dependencies:
     "@salesforce/ts-types" "^2.0.12"
 
-"@salesforce/kit@^4.0.1", "@salesforce/kit@^4.0.8":
+"@salesforce/kit@^4.0.8":
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/@salesforce/kit/-/kit-4.0.8.tgz#7aefc6d515c68c2a839d302459dedef81974dffb"
   integrity sha512-buPp7lWQNK6f5S/vCXwcgclUPZlfRw66E1aXAY/Uy/qMPlaajS4xmo58HY7ge2zUfOjfwpH1b0GUV5cQ5D9EAw==
@@ -5471,14 +5471,14 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif-plugin-update-notifier@^1.5.181:
-  version "1.5.181"
-  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.181.tgz#458fddd35ffcae7289cdfd276578a2356835a591"
-  integrity sha512-KHEsL7K0EsqahYSbyXxstkdupk7X1rXtIXOG1pj0bQJoHl3yYA9TE05UIJ+7IVAlG800e5YcDabI2KvKJR8t1Q==
+oclif-plugin-update-notifier@^1.5.182:
+  version "1.5.182"
+  resolved "https://registry.yarnpkg.com/oclif-plugin-update-notifier/-/oclif-plugin-update-notifier-1.5.182.tgz#5809547ff4dfbbd7a47df0f52622d57a835ba442"
+  integrity sha512-HFplyuHM/+tDg+r+fdt427IHIU9t7Tmgr5tv5aXr0uNBfu17AQ+3wPF3do+WAz6pboi+dqba3V5rpD03FM260Q==
   dependencies:
-    "@jayree/changelog" "^1.2.43"
+    "@jayree/changelog" "^1.2.44"
     "@oclif/core" "^5.1.7"
-    "@salesforce/kit" "^4.0.1"
+    "@salesforce/kit" "^4.0.8"
     boxen "^9.0.0"
     chalk "^6.0.1"
     debug "^4.4.3"
